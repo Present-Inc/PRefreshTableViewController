@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://www.bitbucket.org/presenttv/PTableViewController.git", :commit => "5bd53372c9e57934ca25b1a4791679f058c382ef" }
   s.source_files = 'PTableViewController/Classes/*.{h,m}'
   s.resource     = "PTableViewController/Classes/loader-white.gif"
+  s.dependency 'UIImage+animatedGif'
   s.requires_arc = true
 end
