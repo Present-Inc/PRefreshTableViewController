@@ -139,6 +139,10 @@
     [self.tableView reloadData];
 }
 
+- (void)setInitialized:(BOOL)initialized {
+    _initialized = initialized;
+}
+
 - (void)setTableViewState:(PTableViewControllerState)tableViewState {
     if ([_delegate respondsToSelector:@selector(tableViewController:willTransitionToState:)]) {
         [_delegate tableViewController:self willTransitionToState:tableViewState];

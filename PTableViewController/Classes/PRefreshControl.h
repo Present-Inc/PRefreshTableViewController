@@ -17,6 +17,12 @@ typedef NS_ENUM(NSInteger, PRefreshControlPosition) {
 
 @protocol PRefreshControlDelegate <NSObject>
 @required
+
+/**
+ *  Asks the delegate if a refresh should begin
+ *
+ *  @return YES if a refresh should begin, else NO
+ */
 - (BOOL)shouldBeginRefresh;
 @end
 

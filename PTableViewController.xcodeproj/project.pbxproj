@@ -18,15 +18,16 @@
 		5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511618CE2FF600E85284 /* PTableViewController.m */; };
 		5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511918CE31F500E85284 /* PRefreshControl.m */; };
 		5FE4511C18CE5A8000E85284 /* loader-white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4511B18CE5A8000E85284 /* loader-white.gif */; };
-		5FE4511F18CE5AD300E85284 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */; };
 		5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512218CE7A6900E85284 /* PDataSource.m */; };
 		5FE4512718CE7A6900E85284 /* PDataSource+TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512418CE7A6900E85284 /* PDataSource+TableHeaderView.m */; };
 		5FE4512B18CE7FB600E85284 /* PInitializeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512A18CE7FB600E85284 /* PInitializeView.m */; };
 		5FE4513018CE86CC00E85284 /* PTableViewControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */; };
 		5FE4513218CE914E00E85284 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4513118CE914E00E85284 /* TestCell.xib */; };
+		E0E2D0ECBA684FB4B4C91507 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E91E2DF782450A990F228B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30E91E2DF782450A990F228B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450D618CE2DFC00E85284 /* PTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450D918CE2DFC00E85284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +47,6 @@
 		5FE4511818CE31F500E85284 /* PRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshControl.h; path = Classes/PRefreshControl.h; sourceTree = "<group>"; };
 		5FE4511918CE31F500E85284 /* PRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshControl.m; path = Classes/PRefreshControl.m; sourceTree = "<group>"; };
 		5FE4511B18CE5A8000E85284 /* loader-white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "loader-white.gif"; path = "Classes/loader-white.gif"; sourceTree = "<group>"; };
-		5FE4511D18CE5AD300E85284 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
-		5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "Classes/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		5FE4512118CE7A6900E85284 /* PDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDataSource.h; path = Classes/PDataSource.h; sourceTree = "<group>"; };
 		5FE4512218CE7A6900E85284 /* PDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDataSource.m; path = Classes/PDataSource.m; sourceTree = "<group>"; };
 		5FE4512318CE7A6900E85284 /* PDataSource+TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PDataSource+TableHeaderView.h"; path = "Classes/PDataSource+TableHeaderView.h"; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		5FE4512E18CE86CC00E85284 /* PTableViewControllerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTableViewControllerExample.h; path = Example/PTableViewControllerExample.h; sourceTree = "<group>"; };
 		5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTableViewControllerExample.m; path = Example/PTableViewControllerExample.m; sourceTree = "<group>"; };
 		5FE4513118CE914E00E85284 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestCell.xib; path = Example/TestCell.xib; sourceTree = "<group>"; };
+		A5F6EA1CB2E64FDE8B7382FA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 				5FE450DC18CE2DFC00E85284 /* CoreGraphics.framework in Frameworks */,
 				5FE450DE18CE2DFC00E85284 /* UIKit.framework in Frameworks */,
 				5FE450DA18CE2DFC00E85284 /* Foundation.framework in Frameworks */,
+				E0E2D0ECBA684FB4B4C91507 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +82,7 @@
 				5FE4511118CE2F0D00E85284 /* PTableViewController Example */,
 				5FE450D818CE2DFC00E85284 /* Frameworks */,
 				5FE450D718CE2DFC00E85284 /* Products */,
+				A5F6EA1CB2E64FDE8B7382FA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +101,7 @@
 				5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */,
 				5FE450DD18CE2DFC00E85284 /* UIKit.framework */,
 				5FE450FB18CE2DFD00E85284 /* XCTest.framework */,
+				30E91E2DF782450A990F228B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,7 +109,6 @@
 		5FE450DF18CE2DFC00E85284 /* PTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5FE4512018CE7A4300E85284 /* UIImage+AnimatedGIF */,
 				5FE4511218CE2F4E00E85284 /* PRefreshControl */,
 				5FE4512818CE7A7100E85284 /* PDataSource */,
 				5FE4511518CE2FF600E85284 /* PTableViewController.h */,
@@ -153,15 +155,6 @@
 			name = PRefreshControl;
 			sourceTree = "<group>";
 		};
-		5FE4512018CE7A4300E85284 /* UIImage+AnimatedGIF */ = {
-			isa = PBXGroup;
-			children = (
-				5FE4511D18CE5AD300E85284 /* UIImage+animatedGIF.h */,
-				5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */,
-			);
-			name = "UIImage+AnimatedGIF";
-			sourceTree = "<group>";
-		};
 		5FE4512818CE7A7100E85284 /* PDataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FE4510B18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PTableViewController" */;
 			buildPhases = (
+				B6966CED09A348E1AED75313 /* Check Pods Manifest.lock */,
 				5FE450D218CE2DFC00E85284 /* Sources */,
 				5FE450D318CE2DFC00E85284 /* Frameworks */,
 				5FE450D418CE2DFC00E85284 /* Resources */,
+				165F128133A84EBBB0A0625D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +250,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		165F128133A84EBBB0A0625D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6966CED09A348E1AED75313 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FE450D218CE2DFC00E85284 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +295,6 @@
 				5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */,
 				5FE450E618CE2DFC00E85284 /* main.m in Sources */,
 				5FE450EA18CE2DFC00E85284 /* PAppDelegate.m in Sources */,
-				5FE4511F18CE5AD300E85284 /* UIImage+animatedGIF.m in Sources */,
 				5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +395,7 @@
 		};
 		5FE4510C18CE2DFD00E85284 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F6EA1CB2E64FDE8B7382FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -381,6 +409,7 @@
 		};
 		5FE4510D18CE2DFD00E85284 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F6EA1CB2E64FDE8B7382FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -411,6 +440,7 @@
 				5FE4510D18CE2DFD00E85284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

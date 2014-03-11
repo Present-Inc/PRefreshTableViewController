@@ -112,6 +112,7 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
 
 - (BOOL)isRefreshing;
 - (BOOL)isInitialized;
+- (void)setInitialized:(BOOL)initialized;
 
 - (void)beginRefreshing;
 - (void)endRefreshing;
