@@ -14,25 +14,17 @@
 		5FE450E618CE2DFC00E85284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE450E518CE2DFC00E85284 /* main.m */; };
 		5FE450EA18CE2DFC00E85284 /* PAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE450E918CE2DFC00E85284 /* PAppDelegate.m */; };
 		5FE450ED18CE2DFC00E85284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE450EB18CE2DFC00E85284 /* Main.storyboard */; };
-		5FE450F018CE2DFC00E85284 /* PMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE450EF18CE2DFC00E85284 /* PMasterViewController.m */; };
-		5FE450F318CE2DFC00E85284 /* PDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE450F218CE2DFC00E85284 /* PDetailViewController.m */; };
 		5FE450F518CE2DFC00E85284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE450F418CE2DFC00E85284 /* Images.xcassets */; };
-		5FE450FC18CE2DFD00E85284 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450FB18CE2DFD00E85284 /* XCTest.framework */; };
-		5FE450FD18CE2DFD00E85284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450D918CE2DFC00E85284 /* Foundation.framework */; };
-		5FE450FE18CE2DFD00E85284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450DD18CE2DFC00E85284 /* UIKit.framework */; };
-		5FE4510618CE2DFD00E85284 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4510418CE2DFD00E85284 /* InfoPlist.strings */; };
-		5FE4510818CE2DFD00E85284 /* PTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4510718CE2DFD00E85284 /* PTableViewControllerTests.m */; };
+		5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511618CE2FF600E85284 /* PTableViewController.m */; };
+		5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511918CE31F500E85284 /* PRefreshControl.m */; };
+		5FE4511C18CE5A8000E85284 /* loader-white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4511B18CE5A8000E85284 /* loader-white.gif */; };
+		5FE4511F18CE5AD300E85284 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */; };
+		5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512218CE7A6900E85284 /* PDataSource.m */; };
+		5FE4512718CE7A6900E85284 /* PDataSource+TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512418CE7A6900E85284 /* PDataSource+TableHeaderView.m */; };
+		5FE4512B18CE7FB600E85284 /* PInitializeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512A18CE7FB600E85284 /* PInitializeView.m */; };
+		5FE4513018CE86CC00E85284 /* PTableViewControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */; };
+		5FE4513218CE914E00E85284 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4513118CE914E00E85284 /* TestCell.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5FE450FF18CE2DFD00E85284 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5FE450CE18CE2DFC00E85284 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FE450D518CE2DFC00E85284;
-			remoteInfo = PTableViewController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5FE450D618CE2DFC00E85284 /* PTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,16 +38,26 @@
 		5FE450E818CE2DFC00E85284 /* PAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAppDelegate.h; sourceTree = "<group>"; };
 		5FE450E918CE2DFC00E85284 /* PAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAppDelegate.m; sourceTree = "<group>"; };
 		5FE450EC18CE2DFC00E85284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5FE450EE18CE2DFC00E85284 /* PMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMasterViewController.h; sourceTree = "<group>"; };
-		5FE450EF18CE2DFC00E85284 /* PMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMasterViewController.m; sourceTree = "<group>"; };
-		5FE450F118CE2DFC00E85284 /* PDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDetailViewController.h; sourceTree = "<group>"; };
-		5FE450F218CE2DFC00E85284 /* PDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDetailViewController.m; sourceTree = "<group>"; };
 		5FE450F418CE2DFC00E85284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5FE450FA18CE2DFD00E85284 /* PTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450FB18CE2DFD00E85284 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5FE4510318CE2DFD00E85284 /* PTableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
-		5FE4510518CE2DFD00E85284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5FE4510718CE2DFD00E85284 /* PTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTableViewControllerTests.m; sourceTree = "<group>"; };
+		5FE4511318CE2F9E00E85284 /* PRefreshControlProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshControlProtocol.h; path = Classes/PRefreshControlProtocol.h; sourceTree = "<group>"; };
+		5FE4511518CE2FF600E85284 /* PTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTableViewController.h; path = Classes/PTableViewController.h; sourceTree = "<group>"; };
+		5FE4511618CE2FF600E85284 /* PTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTableViewController.m; path = Classes/PTableViewController.m; sourceTree = "<group>"; };
+		5FE4511818CE31F500E85284 /* PRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshControl.h; path = Classes/PRefreshControl.h; sourceTree = "<group>"; };
+		5FE4511918CE31F500E85284 /* PRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshControl.m; path = Classes/PRefreshControl.m; sourceTree = "<group>"; };
+		5FE4511B18CE5A8000E85284 /* loader-white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "loader-white.gif"; path = "Classes/loader-white.gif"; sourceTree = "<group>"; };
+		5FE4511D18CE5AD300E85284 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "Classes/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		5FE4512118CE7A6900E85284 /* PDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDataSource.h; path = Classes/PDataSource.h; sourceTree = "<group>"; };
+		5FE4512218CE7A6900E85284 /* PDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDataSource.m; path = Classes/PDataSource.m; sourceTree = "<group>"; };
+		5FE4512318CE7A6900E85284 /* PDataSource+TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PDataSource+TableHeaderView.h"; path = "Classes/PDataSource+TableHeaderView.h"; sourceTree = "<group>"; };
+		5FE4512418CE7A6900E85284 /* PDataSource+TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PDataSource+TableHeaderView.m"; path = "Classes/PDataSource+TableHeaderView.m"; sourceTree = "<group>"; };
+		5FE4512518CE7A6900E85284 /* PDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDataSourceDelegate.h; path = Classes/PDataSourceDelegate.h; sourceTree = "<group>"; };
+		5FE4512918CE7FB600E85284 /* PInitializeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PInitializeView.h; path = Classes/PInitializeView.h; sourceTree = "<group>"; };
+		5FE4512A18CE7FB600E85284 /* PInitializeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PInitializeView.m; path = Classes/PInitializeView.m; sourceTree = "<group>"; };
+		5FE4512E18CE86CC00E85284 /* PTableViewControllerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTableViewControllerExample.h; path = Example/PTableViewControllerExample.h; sourceTree = "<group>"; };
+		5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTableViewControllerExample.m; path = Example/PTableViewControllerExample.m; sourceTree = "<group>"; };
+		5FE4513118CE914E00E85284 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestCell.xib; path = Example/TestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FE450F718CE2DFD00E85284 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FE450FC18CE2DFD00E85284 /* XCTest.framework in Frameworks */,
-				5FE450FE18CE2DFD00E85284 /* UIKit.framework in Frameworks */,
-				5FE450FD18CE2DFD00E85284 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				5FE450DF18CE2DFC00E85284 /* PTableViewController */,
-				5FE4510118CE2DFD00E85284 /* PTableViewControllerTests */,
+				5FE4511118CE2F0D00E85284 /* PTableViewController Example */,
 				5FE450D818CE2DFC00E85284 /* Frameworks */,
 				5FE450D718CE2DFC00E85284 /* Products */,
 			);
@@ -96,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				5FE450D618CE2DFC00E85284 /* PTableViewController.app */,
-				5FE450FA18CE2DFD00E85284 /* PTableViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,15 +106,11 @@
 		5FE450DF18CE2DFC00E85284 /* PTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5FE450E818CE2DFC00E85284 /* PAppDelegate.h */,
-				5FE450E918CE2DFC00E85284 /* PAppDelegate.m */,
-				5FE450EB18CE2DFC00E85284 /* Main.storyboard */,
-				5FE450EE18CE2DFC00E85284 /* PMasterViewController.h */,
-				5FE450EF18CE2DFC00E85284 /* PMasterViewController.m */,
-				5FE450F118CE2DFC00E85284 /* PDetailViewController.h */,
-				5FE450F218CE2DFC00E85284 /* PDetailViewController.m */,
-				5FE450F418CE2DFC00E85284 /* Images.xcassets */,
-				5FE450E018CE2DFC00E85284 /* Supporting Files */,
+				5FE4512018CE7A4300E85284 /* UIImage+AnimatedGIF */,
+				5FE4511218CE2F4E00E85284 /* PRefreshControl */,
+				5FE4512818CE7A7100E85284 /* PDataSource */,
+				5FE4511518CE2FF600E85284 /* PTableViewController.h */,
+				5FE4511618CE2FF600E85284 /* PTableViewController.m */,
 			);
 			path = PTableViewController;
 			sourceTree = "<group>";
@@ -139,22 +126,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FE4510118CE2DFD00E85284 /* PTableViewControllerTests */ = {
+		5FE4511118CE2F0D00E85284 /* PTableViewController Example */ = {
 			isa = PBXGroup;
 			children = (
-				5FE4510718CE2DFD00E85284 /* PTableViewControllerTests.m */,
-				5FE4510218CE2DFD00E85284 /* Supporting Files */,
+				5FE450E818CE2DFC00E85284 /* PAppDelegate.h */,
+				5FE450E918CE2DFC00E85284 /* PAppDelegate.m */,
+				5FE4512E18CE86CC00E85284 /* PTableViewControllerExample.h */,
+				5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */,
+				5FE450EB18CE2DFC00E85284 /* Main.storyboard */,
+				5FE450F418CE2DFC00E85284 /* Images.xcassets */,
+				5FE4513118CE914E00E85284 /* TestCell.xib */,
+				5FE450E018CE2DFC00E85284 /* Supporting Files */,
 			);
-			path = PTableViewControllerTests;
+			name = "PTableViewController Example";
+			path = PTableViewController;
 			sourceTree = "<group>";
 		};
-		5FE4510218CE2DFD00E85284 /* Supporting Files */ = {
+		5FE4511218CE2F4E00E85284 /* PRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				5FE4510318CE2DFD00E85284 /* PTableViewControllerTests-Info.plist */,
-				5FE4510418CE2DFD00E85284 /* InfoPlist.strings */,
+				5FE4511318CE2F9E00E85284 /* PRefreshControlProtocol.h */,
+				5FE4511B18CE5A8000E85284 /* loader-white.gif */,
+				5FE4512C18CE7FBD00E85284 /* Initialize View */,
+				5FE4512D18CE7FC500E85284 /* Refresh Control */,
 			);
-			name = "Supporting Files";
+			name = PRefreshControl;
+			sourceTree = "<group>";
+		};
+		5FE4512018CE7A4300E85284 /* UIImage+AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4511D18CE5AD300E85284 /* UIImage+animatedGIF.h */,
+				5FE4511E18CE5AD300E85284 /* UIImage+animatedGIF.m */,
+			);
+			name = "UIImage+AnimatedGIF";
+			sourceTree = "<group>";
+		};
+		5FE4512818CE7A7100E85284 /* PDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4512518CE7A6900E85284 /* PDataSourceDelegate.h */,
+				5FE4512118CE7A6900E85284 /* PDataSource.h */,
+				5FE4512218CE7A6900E85284 /* PDataSource.m */,
+				5FE4512318CE7A6900E85284 /* PDataSource+TableHeaderView.h */,
+				5FE4512418CE7A6900E85284 /* PDataSource+TableHeaderView.m */,
+			);
+			name = PDataSource;
+			sourceTree = "<group>";
+		};
+		5FE4512C18CE7FBD00E85284 /* Initialize View */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4512918CE7FB600E85284 /* PInitializeView.h */,
+				5FE4512A18CE7FB600E85284 /* PInitializeView.m */,
+			);
+			name = "Initialize View";
+			sourceTree = "<group>";
+		};
+		5FE4512D18CE7FC500E85284 /* Refresh Control */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4511818CE31F500E85284 /* PRefreshControl.h */,
+				5FE4511918CE31F500E85284 /* PRefreshControl.m */,
+			);
+			name = "Refresh Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,24 +212,6 @@
 			productReference = 5FE450D618CE2DFC00E85284 /* PTableViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FE450F918CE2DFD00E85284 /* PTableViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE4510E18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PTableViewControllerTests" */;
-			buildPhases = (
-				5FE450F618CE2DFD00E85284 /* Sources */,
-				5FE450F718CE2DFD00E85284 /* Frameworks */,
-				5FE450F818CE2DFD00E85284 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5FE4510018CE2DFD00E85284 /* PBXTargetDependency */,
-			);
-			name = PTableViewControllerTests;
-			productName = PTableViewControllerTests;
-			productReference = 5FE450FA18CE2DFD00E85284 /* PTableViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,11 +221,6 @@
 				CLASSPREFIX = P;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Present, Inc";
-				TargetAttributes = {
-					5FE450F918CE2DFD00E85284 = {
-						TestTargetID = 5FE450D518CE2DFC00E85284;
-					};
-				};
 			};
 			buildConfigurationList = 5FE450D118CE2DFC00E85284 /* Build configuration list for PBXProject "PTableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,7 +236,6 @@
 			projectRoot = "";
 			targets = (
 				5FE450D518CE2DFC00E85284 /* PTableViewController */,
-				5FE450F918CE2DFD00E85284 /* PTableViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,16 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE450F518CE2DFC00E85284 /* Images.xcassets in Resources */,
+				5FE4513218CE914E00E85284 /* TestCell.xib in Resources */,
+				5FE4511C18CE5A8000E85284 /* loader-white.gif in Resources */,
 				5FE450E418CE2DFC00E85284 /* InfoPlist.strings in Resources */,
 				5FE450ED18CE2DFC00E85284 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FE450F818CE2DFD00E85284 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FE4510618CE2DFD00E85284 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,30 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE450F318CE2DFC00E85284 /* PDetailViewController.m in Sources */,
+				5FE4513018CE86CC00E85284 /* PTableViewControllerExample.m in Sources */,
+				5FE4512718CE7A6900E85284 /* PDataSource+TableHeaderView.m in Sources */,
+				5FE4512B18CE7FB600E85284 /* PInitializeView.m in Sources */,
+				5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */,
+				5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */,
 				5FE450E618CE2DFC00E85284 /* main.m in Sources */,
-				5FE450F018CE2DFC00E85284 /* PMasterViewController.m in Sources */,
 				5FE450EA18CE2DFC00E85284 /* PAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FE450F618CE2DFD00E85284 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FE4510818CE2DFD00E85284 /* PTableViewControllerTests.m in Sources */,
+				5FE4511F18CE5AD300E85284 /* UIImage+animatedGIF.m in Sources */,
+				5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5FE4510018CE2DFD00E85284 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5FE450D518CE2DFC00E85284 /* PTableViewController */;
-			targetProxy = 5FE450FF18CE2DFD00E85284 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5FE450E218CE2DFC00E85284 /* InfoPlist.strings */ = {
@@ -295,14 +289,6 @@
 				5FE450EC18CE2DFC00E85284 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5FE4510418CE2DFD00E85284 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FE4510518CE2DFD00E85284 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,48 +392,6 @@
 			};
 			name = Release;
 		};
-		5FE4510F18CE2DFD00E85284 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTableViewController.app/PTableViewController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTableViewController/PTableViewController-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PTableViewControllerTests/PTableViewControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5FE4511018CE2DFD00E85284 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTableViewController.app/PTableViewController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTableViewController/PTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "PTableViewControllerTests/PTableViewControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,14 +409,6 @@
 			buildConfigurations = (
 				5FE4510C18CE2DFD00E85284 /* Debug */,
 				5FE4510D18CE2DFD00E85284 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5FE4510E18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PTableViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FE4510F18CE2DFD00E85284 /* Debug */,
-				5FE4511018CE2DFD00E85284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

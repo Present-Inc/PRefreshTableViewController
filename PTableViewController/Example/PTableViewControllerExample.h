@@ -1,13 +1,13 @@
 //
-//  PMasterViewController.h
+//  PTableViewControllerExample.h
 //  PTableViewController
 //
 //  Created by Justin Makaila on 3/10/14.
 //  Copyright (c) 2014 Present, Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PTableViewController.h"
 
-@interface PMasterViewController : UITableViewController
+@interface PTableViewControllerExample : PTableViewController
 
 @end
