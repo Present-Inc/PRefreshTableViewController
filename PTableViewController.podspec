@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.bitbucket.org/presenttv/PTableViewController"
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.author       = { "justinmakaila" => "justinmakaila@gmail.com" }
-  s.platform     = :ios
-  s.source       = { :git => "http://www.bitbucket.org/presenttv/PTableViewController.git", :tag => "0.0.1" }
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
-  s.resource     = "Classes/*.gif"
+  s.platform     = :ios, '7.0'
+  s.source       = { :git => "http://www.bitbucket.org/presenttv/PTableViewController.git", :commit => "5bd53372c9e57934ca25b1a4791679f058c382ef" }
+  s.source_files = 'PTableViewController/Classes/*.{h,m}'
+  s.resource     = "PTableViewController/Classes/loader-white.gif"
   s.requires_arc = true
 end
