@@ -17,14 +17,6 @@
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate;
 
 /**
- *  Called when the scroll view will decelerate
- *
- *  @param decelerate Whether or not the scroll view
- *  will decelerate
- */
-- (void)scrollViewWillDecelerate:(BOOL)decelerate;
-
-/**
  *  Notifies the delegate when the scroll view did scroll to
  *  top
  */

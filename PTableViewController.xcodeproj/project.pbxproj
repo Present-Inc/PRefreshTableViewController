@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F69F24718DF744000B2D217 /* PExampleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F69F24618DF744000B2D217 /* PExampleDataSource.m */; };
 		5FE450DA18CE2DFC00E85284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450D918CE2DFC00E85284 /* Foundation.framework */; };
 		5FE450DC18CE2DFC00E85284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */; };
 		5FE450DE18CE2DFC00E85284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450DD18CE2DFC00E85284 /* UIKit.framework */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		30E91E2DF782450A990F228B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F69F24518DF744000B2D217 /* PExampleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PExampleDataSource.h; sourceTree = "<group>"; };
+		5F69F24618DF744000B2D217 /* PExampleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PExampleDataSource.m; sourceTree = "<group>"; };
 		5FE450D618CE2DFC00E85284 /* PTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450D918CE2DFC00E85284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 			children = (
 				5FE450E818CE2DFC00E85284 /* PAppDelegate.h */,
 				5FE450E918CE2DFC00E85284 /* PAppDelegate.m */,
+				5F69F24518DF744000B2D217 /* PExampleDataSource.h */,
+				5F69F24618DF744000B2D217 /* PExampleDataSource.m */,
 				5FE4512E18CE86CC00E85284 /* PTableViewControllerExample.h */,
 				5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */,
 				5FE450EB18CE2DFC00E85284 /* Main.storyboard */,
@@ -290,6 +295,7 @@
 			files = (
 				5FE4513018CE86CC00E85284 /* PTableViewControllerExample.m in Sources */,
 				5FE4512718CE7A6900E85284 /* PDataSource+TableHeaderView.m in Sources */,
+				5F69F24718DF744000B2D217 /* PExampleDataSource.m in Sources */,
 				5FE4512B18CE7FB600E85284 /* PInitializeView.m in Sources */,
 				5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */,
 				5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */,
