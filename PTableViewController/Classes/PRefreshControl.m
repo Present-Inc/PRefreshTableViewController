@@ -120,7 +120,7 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
     if (state != PRefreshControlStateRefreshing) {
         state = PRefreshControlStateRefreshing;
         
-        [self scrollRefreshControlToVisible:YES aniamted:animated];
+        [self scrollRefreshControlToVisible:YES animated:animated completionHandler:nil];
         
         if (![self.refreshIndicator isAnimating]) {
             [self.refreshIndicator startAnimating];
@@ -134,13 +134,13 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
 
 - (void)endRefreshingAnimated:(BOOL)animated {
     if (state == PRefreshControlStateRefreshing) {
-        [self scrollRefreshControlToVisible:NO aniamted:animated];
-        
-        if ([self.refreshIndicator isAnimating]) {
-            [self.refreshIndicator stopAnimating];
-        }
-        
-        self.refreshIndicator.alpha = 0.0f;
+        [self scrollRefreshControlToVisible:NO animated:animated completionHandler:^{
+            if ([self.refreshIndicator isAnimating]) {
+                [self.refreshIndicator stopAnimating];
+            }
+            
+            self.refreshIndicator.alpha = 0.0f;
+        }];
     }
 }
 
@@ -165,7 +165,7 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
     }
 }
 
-- (void)scrollRefreshControlToVisible:(BOOL)visible aniamted:(BOOL)animated {
+- (void)scrollRefreshControlToVisible:(BOOL)visible animated:(BOOL)animated completionHandler:(void(^)())completion {
     CGFloat animationDuration = (animated) ? 0.25f : 0.0f;
     
     [UIView animateWithDuration:animationDuration
@@ -182,6 +182,10 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
                      }completion:^(BOOL success) {
                          if (success && !visible) {
                              state = PRefreshControlStateHidden;
+                         }
+                         
+                         if (completion) {
+                             completion();
                          }
                      }];
 }

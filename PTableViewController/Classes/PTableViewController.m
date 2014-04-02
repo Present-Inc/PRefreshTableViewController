@@ -73,7 +73,6 @@
     self.refreshing = NO;
     
     [self.refreshControl endRefreshing];
-    [self.loadMoreControl endRefreshing];
     
     [super viewWillDisappear:animated];
 }
@@ -84,12 +83,6 @@
                                                       target:self
                                                       action:@selector(refreshTriggered)];
     self.refreshControl.delegate = self;
-    
-    self.loadMoreControl = [PRefreshControl attachToTableView:self.tableView
-                                                     position:PRefreshControlPositionFooter
-                                                       target:self
-                                                       action:@selector(loadMoreTriggered)];
-    self.loadMoreControl.delegate = self;
     
     if (!self.initializeView && !self.isInitialized) {
         self.initializeView = [[PInitializeView alloc] initWithFrame:self.tableView.frame];
@@ -176,10 +169,6 @@
         [self.refreshControl endRefreshing];
     }
     
-    if (self.loadMoreControl.isRefreshing) {
-        [self.loadMoreControl endRefreshing];
-    }
-    
     self.tableView.separatorStyle = separatorStyle;
     self.initializeView.hidden = YES;
 }
@@ -195,7 +184,7 @@
 }
 
 - (void)setLoadingFooterState {
-    NSLog(@"This is the loading footer state");
+    [self showFooterView];
 }
 
 - (void)setEmptyState {
@@ -203,26 +192,32 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
+- (void)showFooterView {
+    self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+}
+
+- (void)hideFooterView {
+    self.tableView.tableFooterView = nil;
+}
+
 #pragma mark - PRefreshControl Delegate
 
 - (BOOL)shouldBeginRefresh {
-    NSLog(@"Can begin refresh? %@", self.canBeginRefresh ? @"YES" : @"NO");
     return self.canBeginRefresh;
 }
 
 #pragma mark - PDataSource Delegate
 
+- (NSInteger)loadMoreIndex {
+    return 3;
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     [self.refreshControl scrollViewDidScroll];
-    [self.loadMoreControl scrollViewDidScroll];
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     [self.refreshControl scrollViewDidEndDragging];
-    
-    if (scrollView.contentSize.height > CGRectGetHeight(scrollView.bounds)) {
-        [self.loadMoreControl scrollViewDidEndDragging];
-    }
 }
 
 #pragma mark - Refresh
@@ -258,13 +253,7 @@
 #pragma mark Flow
                            
 - (void)refreshTriggered {
-    NSLog(@"Refresh triggered");
     [self beginRefreshing];
-}
-
-- (void)loadMoreTriggered {
-    NSLog(@"Load more triggered");
-    [self loadMore];
 }
 
 - (void)beginRefreshing {
@@ -277,7 +266,9 @@
         return;
     }
     
-    NSLog(@"Refreshing");
+    if (![self.cursor isEqualToString:@""] && !self.tableView.tableFooterView) {
+        [self showFooterView];
+    }
     
     self.refreshing = YES;
     [_delegate refreshBlock];
@@ -288,8 +279,8 @@
         [self.refreshControl endRefreshing];
     }
     
-    if (self.loadMoreControl.isRefreshing) {
-        [self.loadMoreControl endRefreshing];
+    if (self.tableView.tableFooterView) {
+        [self hideFooterView];
     }
     
     self.refreshing = NO;

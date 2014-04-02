@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F69F24718DF744000B2D217 /* PExampleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F69F24618DF744000B2D217 /* PExampleDataSource.m */; };
+		5F3187C118EB519F00D1C968 /* PRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3187BF18EB519F00D1C968 /* PRefreshFooterView.m */; };
+		5F3187C218EB519F00D1C968 /* PRefreshFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3187C018EB519F00D1C968 /* PRefreshFooterView.xib */; };
 		5FE450DA18CE2DFC00E85284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450D918CE2DFC00E85284 /* Foundation.framework */; };
 		5FE450DC18CE2DFC00E85284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */; };
 		5FE450DE18CE2DFC00E85284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE450DD18CE2DFC00E85284 /* UIKit.framework */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		30E91E2DF782450A990F228B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F69F24518DF744000B2D217 /* PExampleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PExampleDataSource.h; sourceTree = "<group>"; };
-		5F69F24618DF744000B2D217 /* PExampleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PExampleDataSource.m; sourceTree = "<group>"; };
+		5F3187BE18EB519F00D1C968 /* PRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshFooterView.h; path = Classes/PRefreshFooterView.h; sourceTree = "<group>"; };
+		5F3187BF18EB519F00D1C968 /* PRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshFooterView.m; path = Classes/PRefreshFooterView.m; sourceTree = "<group>"; };
+		5F3187C018EB519F00D1C968 /* PRefreshFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PRefreshFooterView.xib; path = Classes/PRefreshFooterView.xib; sourceTree = "<group>"; };
 		5FE450D618CE2DFC00E85284 /* PTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450D918CE2DFC00E85284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3187C318EB51A600D1C968 /* PRefreshCell */ = {
+			isa = PBXGroup;
+			children = (
+				5F3187BE18EB519F00D1C968 /* PRefreshFooterView.h */,
+				5F3187BF18EB519F00D1C968 /* PRefreshFooterView.m */,
+				5F3187C018EB519F00D1C968 /* PRefreshFooterView.xib */,
+			);
+			name = PRefreshCell;
+			sourceTree = "<group>";
+		};
 		5FE450CD18CE2DFC00E85284 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		5FE450DF18CE2DFC00E85284 /* PTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5F3187C318EB51A600D1C968 /* PRefreshCell */,
 				5FE4511218CE2F4E00E85284 /* PRefreshControl */,
 				5FE4512818CE7A7100E85284 /* PDataSource */,
 				5FE4511518CE2FF600E85284 /* PTableViewController.h */,
@@ -136,8 +149,6 @@
 			children = (
 				5FE450E818CE2DFC00E85284 /* PAppDelegate.h */,
 				5FE450E918CE2DFC00E85284 /* PAppDelegate.m */,
-				5F69F24518DF744000B2D217 /* PExampleDataSource.h */,
-				5F69F24618DF744000B2D217 /* PExampleDataSource.m */,
 				5FE4512E18CE86CC00E85284 /* PTableViewControllerExample.h */,
 				5FE4512F18CE86CC00E85284 /* PTableViewControllerExample.m */,
 				5FE450EB18CE2DFC00E85284 /* Main.storyboard */,
@@ -247,6 +258,7 @@
 			files = (
 				5FE450F518CE2DFC00E85284 /* Images.xcassets in Resources */,
 				5FE4513218CE914E00E85284 /* TestCell.xib in Resources */,
+				5F3187C218EB519F00D1C968 /* PRefreshFooterView.xib in Resources */,
 				5FE4511C18CE5A8000E85284 /* loader-white.gif in Resources */,
 				5FE450E418CE2DFC00E85284 /* InfoPlist.strings in Resources */,
 				5FE450ED18CE2DFC00E85284 /* Main.storyboard in Resources */,
@@ -293,9 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3187C118EB519F00D1C968 /* PRefreshFooterView.m in Sources */,
 				5FE4513018CE86CC00E85284 /* PTableViewControllerExample.m in Sources */,
 				5FE4512718CE7A6900E85284 /* PDataSource+TableHeaderView.m in Sources */,
-				5F69F24718DF744000B2D217 /* PExampleDataSource.m in Sources */,
 				5FE4512B18CE7FB600E85284 /* PInitializeView.m in Sources */,
 				5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */,
 				5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */,

@@ -69,9 +69,9 @@
     
     id item = [self itemAtIndexPath:indexPath];
     
-    !self.configurationBlock ?: self.configurationBlock(cell, item);
+    !self.configurationBlock ?: self.configurationBlock(cell, item, indexPath);
+
     ((UITableViewCell*)cell).tag = indexPath.row;
-    
     return cell;
 }
 
@@ -83,6 +83,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     !self.selectedIndexPathBlock ?: self.selectedIndexPathBlock(indexPath);
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == (self.items.count - _delegate.loadMoreIndex)) {
+        [self.delegate triggerLoadMore];
+    }
 }
 
 #pragma mark UIScrollView Delegate

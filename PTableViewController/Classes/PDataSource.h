@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 #import "PDataSourceDelegate.h"
+#import "PRefreshFooterView.h"
 
 typedef void (^TableCellConfigurationBlock) (id cell);
-typedef void (^TableCellModelConfigurationBlock) (id cell, id item);
+typedef void (^TableCellModelConfigurationBlock) (id cell, id item, NSIndexPath *indexPath);
 typedef void (^TableCellIndexPathConfigurationBlock) (id cell, NSIndexPath *indexPath);
 
 typedef CGFloat (^TableCellHeightForIndexPathBlock) (NSIndexPath *indexPath);
@@ -58,5 +59,7 @@ typedef void (^SelectedIndexPathBlock) (NSIndexPath *indexPath);
 
 - (id)itemAtIndexPath:(NSIndexPath*)indexPath;
 - (id)itemAtIndex:(NSUInteger)index;
+
+- (PRefreshFooterView*)refreshCellForTableView:(UITableView*)tableView withTag:(NSUInteger)tag;
 
 @end

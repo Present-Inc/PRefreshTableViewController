@@ -10,17 +10,16 @@
 
 @protocol PDataSourceDelegate <NSObject>
 
+- (NSInteger)loadMoreIndex;
+
 @optional
+
+- (void)triggerLoadMore;
 
 - (void)scrollViewDidScroll:(UIScrollView*)scrollView;
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate;
 
-/**
- *  Notifies the delegate when the scroll view did scroll to
- *  top
- */
 - (void)scrollViewDidScrollToTop;
-
 
 @end

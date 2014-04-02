@@ -39,7 +39,7 @@ typedef NS_ENUM(NSInteger, PRefreshControlPosition) {
 
 - (id)initWithFrame:(CGRect)frame scrollView:(UIScrollView*)scrollView position:(PRefreshControlPosition)position target:(id)refreshTarget action:(SEL)refreshAction;
 
-- (void)scrollRefreshControlToVisible:(BOOL)visible aniamted:(BOOL)animated;
+- (void)scrollRefreshControlToVisible:(BOOL)visible animated:(BOOL)animated completionHandler:(void(^)())completion;
 
 - (void)scrollViewDidScroll;
 - (void)scrollViewDidEndDragging;

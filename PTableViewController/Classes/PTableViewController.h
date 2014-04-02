@@ -97,13 +97,11 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
 @property (strong, nonatomic) PDataSource *tableViewDataSource;
 
 @property (strong, nonatomic) PInitializeView *initializeView;
+
 @property (strong, nonatomic) PRefreshControl *refreshControl;
-@property (strong, nonatomic) PRefreshControl *loadMoreControl;
 
 @property (strong, nonatomic) NSString *cursor;
 @property (strong, nonatomic) NSMutableArray *items;
-
-@property (readonly, copy, nonatomic) void (^PResultsBlock) (NSArray *results, NSString *cursor, NSError *error);
 
 - (void)setupTableView;
 - (void)setupData;
@@ -115,6 +113,7 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
 - (void)setInitialized:(BOOL)initialized;
 
 - (void)beginRefreshing;
+- (void)loadMore;
 - (void)endRefreshing;
 
 @end
