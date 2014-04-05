@@ -1,0 +1,23 @@
+Pod::Spec.new do |s|
+  s.name         = "PRefreshTableViewController"
+  s.version      = "0.0.3"
+  s.summary      = "A UIViewController that manages table view state and custom refresh header/footer views"
+  s.description  = <<-DESC
+                    PTableViewController
+                    ===
+                    A UIViewController that manages table view state, including initializing, empty, refreshing header, and loading footer state.
+                    It provides a protocol that should be implemented by any views to be used for the refreshControl property.
+
+                    This controller simplifies retreiving and paging through data from any API, by providing a suite of protocol methods
+                    for making refresh and load more requests.
+                   DESC
+  s.homepage     = "http://www.bitbucket.org/presenttv/PRefreshTableViewController"
+  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  s.author       = { "justinmakaila" => "justinmakaila@gmail.com" }
+  s.platform     = :ios, '7.0'
+  s.source       = { :git => "http://www.bitbucket.org/presenttv/PRefreshTableViewController.git", :tag => "0.0.3" }
+  s.source_files = 'PTableViewController/Classes/*.{h,m}'
+  s.resource     = "PTableViewController/Classes/*.{gif,xib}"
+  s.dependency 'UIImage+animatedGif'
+  s.requires_arc = true
+end
