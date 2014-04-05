@@ -1,0 +1,716 @@
+TPTableViewController
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh
+cProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch PTableViewController/PTableViewController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController normal armv7s
+cCompileXIB /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib
+cCompileXIB /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib
+cCpResource PTableViewController/Classes/loader-white.gif Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif
+cCopyStringsFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings PTableViewController/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets
+cProcessInfoPlistFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist
+cGenerateDSYMFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh
+cProcessProductPackaging /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision
+cTouch /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent
+cCodeSign /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531FA4C30000000000000094
+t1394582723
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531FA4C30000000000000096
+t1394582723
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531FA4C3000000000000036B
+t1394582723
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FA4C4000000000000019E
+t1394582724
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000531FA4C700000000004D7BC0
+t1394582727
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531FA4C80000000000A90C10
+t1394582728
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531FA4CE0000000002759920
+t1394582734
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531FA5250000000000000ADC
+t1394582821
+s2780
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o
+t1396404105
+s61912
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o
+t1396404105
+s40456
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o
+t1396404105
+s80864
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o
+t1396404105
+s55604
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o
+t1396404105
+s51804
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o
+t1396404105
+s79896
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.LinkFileList
+c00000000533B6F890000000000000758
+t1396404105
+s1880
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o
+t1396404105
+s87204
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o
+t1396404105
+s67424
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o
+t1396404105
+s3928
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent
+t1396404134
+s537
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh
+c00000000533B6F89000000000000002F
+t1396404105
+s47
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh
+c00000000533B6F890000000000000103
+t1396404105
+s259
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_dependencies.txt
+t1396404128
+s525
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_generated_info.plist
+t1396404128
+s525
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch
+t1396404105
+s95804
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+t1396404134
+s476
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM
+t2
+s0
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Base.lproj/Main.storyboardc
+t1396404131
+s170
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist
+t1396404131
+s1446
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PRefreshCell.nib
+t1396404131
+s1731
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController
+t1396404106
+s142848
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PkgInfo
+t1396404131
+s8
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist
+t1396404105
+s150
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/TestCell.nib
+t1396404131
+s1121
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision
+t1396404134
+s12807
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings
+t1396404106
+s42
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif
+t1396404106
+s4024
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a
+c00000000533B6F890000000000005D98
+t1396404105
+s23960
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard
+c00000000531F376F0000000000000F86
+t1394554735
+s3974
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m
+c00000000531E48680000000000000252
+t1394493544
+s594
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m
+c00000000533B6B7C00000000000010CC
+t1396403068
+s4300
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m
+c00000000531E4894000000000000080F
+t1394493588
+s2063
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m
+c00000000533B199B00000000000005A5
+t1396382107
+s1445
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib
+c00000000533B28E10000000000000AC5
+t1396386017
+s2757
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m
+c00000000533B6F6400000000000023CB
+t1396404068
+s9163
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m
+c00000000532F3E1B00000000000019A6
+t1395605019
+s6566
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/loader-white.gif
+c0000000052C20ECA0000000000000FB8
+t1388449482
+s4024
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m
+c00000000533B21810000000000000DB7
+t1396384129
+s3511
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib
+c00000000531E59F700000000000005A5
+t1394498039
+s1445
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets
+c00000000531DF67C0000000000000088
+t1394472572
+s136
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m
+c00000000531DF67C00000000000007EB
+t1394472572
+s2027
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist
+c00000000531DF67C000000000000058F
+t1394472572
+s1423
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Prefix.pch
+c00000000531DF67C0000000000000158
+t1394472572
+s344
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/en.lproj/InfoPlist.strings
+c00000000531DF67C000000000000002D
+t1394472572
+s45
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m
+c00000000531DF67C0000000000000164
+t1394472572
+s356
+
+N/Users/jmakaila/Library/MobileDevice/Provisioning Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision
+c000000005327537C0000000000003207
+t1395086204
+s12807
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies93ac5f09a7ebb841^10026209a7ebb841^---0#1#1#--18"Check dependencies36"DD5263C5-AE71-4A13-A482-9F6CE89C3ABB-
+
+CCodeSign /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+s418096934.084189
+e418096934.497646
+r1
+xCodeSign
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CodeSign Build/Products/Debug-iphoneos/PTableViewController.app63"CodeSign Build/Products/Debug-iphoneos/PTableViewController.appbea41526a7ebb841^b2677f26a7ebb841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/0000000000000000^1244"CodeSign Build/Products/Debug-iphoneos/PTableViewController.app    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Justin Makaila (W9Z7HDDAGM)" and provisioning profile "iOS Team Provisioning Profile: *" (B5454B27-212F-4230-AF8A-24D1CA6534E2)    /usr/bin/codesign --force --sign 2700F2F87F55F6CFABB9E1C349085CEBF72EB777 --resource-rules=/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist --entitlements /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app36"A3355514-0623-4242-8D10-4725540CB948-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileAssetCatalog /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets
+s418096906.532776
+e418096928.631743
+r1
+xCompileAssetCatalog
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/LaunchImage-700-568h@2x.png
+o/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Assets.car
+o/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CompileAssetCatalog Build/Products/Debug-iphoneos/PTableViewController.app PTableViewController/Images.xcassets111"CompileAssetCatalog Build/Products/Debug-iphoneos/PTableViewController.app PTableViewController/Images.xcassets3b8d880aa7ebb841^8cbba120a7ebb841^-553"/* com.apple.actool.compilation-results *//Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/LaunchImage-700-568h@2x.png/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Assets.car/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets/0000000000000000^1355"CompileAssetCatalog Build/Products/Debug-iphoneos/PTableViewController.app PTableViewController/Images.xcassets    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Images.xcassets36"5E77BD44-3FB5-4D7C-A1ED-E882757D24C2-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.588693
+e418096905.685352
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m240"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o PTableViewController/PAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler5feb9609a7ebb841^de59af09a7ebb841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m0000000000000000^4755"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o PTableViewController/PAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o36"CD7A82A7-4E48-4A30-941B-F76D5590E2F5-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.586280
+e418096905.669299
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSourceDelegate.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m278"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o PTableViewController/Classes/PDataSource+TableHeaderView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler97389609a7ebb841^0613ab09a7ebb841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m0000000000000000^4861"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o PTableViewController/Classes/PDataSource+TableHeaderView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource+TableHeaderView.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o36"EAF4C39D-EA85-4E8D-ADD6-05794C2A941B-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.587469
+e418096905.725493
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSourceDelegate.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m246"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o PTableViewController/Classes/PDataSource.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler47909609a7ebb841^cbbcb909a7ebb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m0000000000000000^4765"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o PTableViewController/Classes/PDataSource.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o36"E724F5E5-C572-49C0-B37B-B474B3391677-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.586568
+e418096905.709080
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControlProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m254"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o PTableViewController/Classes/PInitializeView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler48529609a7ebb841^cb86b509a7ebb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m0000000000000000^4789"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o PTableViewController/Classes/PInitializeView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o36"C8CA3CB8-E59A-4816-A1E1-CD824A8EC3EB-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.585730
+e418096905.708572
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m248"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o PTableViewController/Classes/PRefreshCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere90a9609a7ebb841^f565b509a7ebb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m0000000000000000^4771"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o PTableViewController/Classes/PRefreshCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o36"8E868EE8-1462-4454-88A5-8D6D114B47AF-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.586954
+e418096905.797704
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControlProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m254"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o PTableViewController/Classes/PRefreshControl.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdf6d9609a7ebb841^0d37cc09a7ebb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m0000000000000000^4789"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o PTableViewController/Classes/PRefreshControl.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o36"C5B276E8-556F-437F-9067-4029590CE489-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.657965
+e418096905.774527
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSourceDelegate.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControlProtocol.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m264"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o PTableViewController/Classes/PTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6896a809a7ebb841^1f4cc609a7ebb841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m0000000000000000^4819"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o PTableViewController/Classes/PTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o36"D1B109BE-F684-4639-8127-A2F7C4B8632D-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.586035
+e418096905.737122
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PTableViewController.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSource.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PDataSourceDelegate.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControl.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshControlProtocol.h
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PInitializeView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m278"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o PTableViewController/Example/PTableViewControllerExample.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf71e9609a7ebb841^9ab5bc09a7ebb841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m0000000000000000^4861"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o PTableViewController/Example/PTableViewControllerExample.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/PTableViewControllerExample.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o36"68EA7418-02AD-469F-BA16-4AE59357818C-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.587921
+e418096905.657402
+r1
+xCompileC
+xBuild/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m224"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o PTableViewController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler75ac9609a7ebb841^7f4ba809a7ebb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m0000000000000000^4707"CompileC Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o PTableViewController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/main.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o36"812B4D6F-AF43-47B8-B205-D0CFD4ACB0C4-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileStoryboard /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard
+s418096906.531710
+e418096931.631215
+r1
+xCompileStoryboard
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard PTableViewController/Base.lproj/Main.storyboard65"CompileStoryboard PTableViewController/Base.lproj/Main.storyboard8f38880aa7ebb841^1898a123a7ebb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard0000000000000000^939"CompileStoryboard PTableViewController/Base.lproj/Main.storyboard    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Base.lproj/Main.storyboardc /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Base.lproj/Main.storyboard36"D19218B5-329B-45C5-9156-33864654EB57-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileXIB /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib
+s418096906.530302
+e418096931.619508
+r1
+xCompileXIB
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compiling /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib56"CompileXIB PTableViewController/Classes/PRefreshCell.xib29e7870aa7ebb841^dd989e23a7ebb841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib0000000000000000^867"CompileXIB PTableViewController/Classes/PRefreshCell.xib    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PRefreshCell.nib /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/PRefreshCell.xib36"EC167ABC-D5E1-4448-A204-5439BBD3620E-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCompileXIB /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib
+s418096906.530034
+e418096931.435585
+r1
+xCompileXIB
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compiling /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib52"CompileXIB PTableViewController/Example/TestCell.xib57cd870aa7ebb841^ab976f23a7ebb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib0000000000000000^855"CompileXIB PTableViewController/Example/TestCell.xib    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/TestCell.nib /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Example/TestCell.xib36"4B4812AF-0F58-4E7A-B02F-6ED32EE1D5B7-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCopyStringsFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings PTableViewController/en.lproj/InfoPlist.strings
+s418096906.530890
+e418096906.533690
+r1
+xCopyStringsFile
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings
+xPTableViewController/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy PTableViewController/en.lproj/InfoPlist.strings145"CopyStringsFile Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings PTableViewController/en.lproj/InfoPlist.stringsfa0c880aa7ebb841^f1a1880aa7ebb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/en.lproj/InfoPlist.strings0000000000000000^704"CopyStringsFile Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj/InfoPlist.strings PTableViewController/en.lproj/InfoPlist.strings    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/en.lproj -- PTableViewController/en.lproj/InfoPlist.strings36"DFFC48C4-F433-4CDB-A9C6-50A70C1C5B79-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist
+s418096905.384036
+e418096905.455845
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist207"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.pliste0696209a7ebb841^75037509a7ebb841^---0#0#1#-19%DVTDocumentLocation2@160"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist0034bc94deffdf42^850"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app36"24FBEB7D-F181-4CF2-8889-81D60CFF41CA-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CCpResource PTableViewController/Classes/loader-white.gif Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif
+s418096906.530615
+e418096906.532457
+r1
+xCpResource
+xPTableViewController/Classes/loader-white.gif
+xBuild/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif128"CpResource PTableViewController/Classes/loader-white.gif Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif01fc870aa7ebb841^ec51880aa7ebb841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif0034bc94deffdf42^774"CpResource PTableViewController/Classes/loader-white.gif Build/Products/Debug-iphoneos/PTableViewController.app/loader-white.gif    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/Classes/loader-white.gif /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app36"C1757CE5-2143-4557-B81F-D9E8BDD750B2-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CGenerateDSYMFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController
+s418096931.665374
+e418096931.799521
+r1
+xGenerateDSYMFile
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Generate /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM152"GenerateDSYMFile Build/Products/Debug-iphoneos/PTableViewController.app.dSYM Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController4163aa23a7ebb841^75aecc23a7ebb841^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM0034bc94deffdf42^824"GenerateDSYMFile Build/Products/Debug-iphoneos/PTableViewController.app.dSYM Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app.dSYM36"C893DAAF-A7D8-40B2-9845-F2FFC4676414-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CLd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController normal armv7s
+s418096905.798776
+e418096906.528675
+r1
+xLd
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController
+xnormal
+xarmv7s
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.LinkFileList
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshCell.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewControllerExample.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource+TableHeaderView.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PInitializeView.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PRefreshControl.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PDataSource.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/main.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PAppDelegate.o
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Link /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController92"Ld Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController normal armv7s2a8dcc09a7ebb841^105a870aa7ebb841^---0#0#1#--1693"Ld Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController normal armv7s    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -filelist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController.LinkFileList -dead_strip -ObjC -framework ImageIO -framework UIKit -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Objects-normal/armv7s/PTableViewController_dependency_info.dat -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PTableViewController36"761B7DCF-F358-4032-B7D1-E5943B8987F3-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh
+s418096905.457768
+e418096905.548181
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'171"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.shf0c37509a7ebb841^a3568c09a7ebb841^---0#0#1#--476"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    /bin/sh -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-B6966CED09A348E1AED75313.sh36"3D549A46-9205-4DB9-9298-D7C6FE3B81E2-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh
+s418096931.800595
+e418096934.053717
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+o/* com.apple.actool.compilation-results */
+o/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'166"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh546fcd23a7ebb841^fdc00d26a7ebb841^-301"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-418096931#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-418096932#29#50#-0#-----2@33"total size is 0  speedup is 0.00-418096932#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-418096934#112#43#-0#-----2@145"/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Assets.car-418096934#155#145#-0#-----0#0#1#--471"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    /bin/sh -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/Script-165F128133A84EBBB0A0625D.sh36"889C685F-AAF7-4A18-A30A-A35E2F29A590-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CProcessInfoPlistFile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist
+s418096931.631832
+e418096931.664852
+r1
+xProcessInfoPlistFile
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Process /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist139"ProcessInfoPlistFile Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist PTableViewController/PTableViewController-Info.plistfad0a123a7ebb841^0d35aa23a7ebb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist0000000000000000^1330"ProcessInfoPlistFile Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist PTableViewController/PTableViewController-Info.plist    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Info.plist -genpkginfo /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/ResourceRules.plist -additionalcontentfile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/assetcatalog_generated_info.plist -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/Info.plist36"70038F24-8788-467D-8BBE-19BE62477871-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch PTableViewController/PTableViewController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096905.548910
+e418096905.585088
+r1
+xProcessPCH
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch
+xPTableViewController/PTableViewController-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precompile PTableViewController/PTableViewController-Prefix.pch265"ProcessPCH Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch PTableViewController/PTableViewController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler639b8c09a7ebb841^97c89509a7ebb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Prefix.pch0000000000000000^4602"ProcessPCH Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch PTableViewController/PTableViewController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.dia -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.d -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/PTableViewController/PTableViewController-Prefix.pch -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/PTableViewController-Prefix-bluesanhwoigaueeuolebjapqbac/PTableViewController-Prefix.pch.pch36"A0A422AC-32C9-446C-BAD9-E894869B48F4-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CProcessPCH /Users/jmakaila/Library/Developer/Xcode/DerivedData/PTableViewController-axqtmrrhnustqqdmgonsrzowrcnq/Index/PrecompiledHeaders/PTableViewController-Prefix-cszxdimxdztilsfwrqwrapoikzkb_ast/PTableViewController-Prefix.pch.pch PTableViewController/PTableViewController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent
+s418096934.082340
+e418096934.083824
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection260"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent260"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent85221526a7ebb841^36761526a7ebb841^---0#0#1#-19%DVTDocumentLocation2@201"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent0034bc94deffdf42^916"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PTableViewController.build/Debug-iphoneos/PTableViewController.build/PTableViewController.xcent36"D0F991E1-2903-4244-AFC8-E7A6FDFAD8BF-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CProcessProductPackaging /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision
+s418096934.054148
+e418096934.081111
+r1
+xProcessProductPackaging
+x/Users/jmakaila/Library/MobileDevice/Provisioning Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection216"ProcessProductPackaging /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision216"ProcessProductPackaging /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovisionffea0d26a7ebb841^15c41426a7ebb841^---0#0#1#-19%DVTDocumentLocation2@165"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision0034bc94deffdf42^802"ProcessProductPackaging /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/jmakaila/Library/MobileDevice/Provisioning\ Profiles/B5454B27-212F-4230-AF8A-24D1CA6534E2.mobileprovision -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app/embedded.mobileprovision36"978E8D5C-E843-4DBF-AA22-8554BD3F64B3-
+b89CA2CE9-0997-43E8-A687-87CB7D29F22A
+
+CTouch /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/PTableViewController.app
+r0
+

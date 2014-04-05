@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
                     This controller simplifies retreiving and paging through data from any API, by providing a suite of protocol methods
                     for making refresh and load more requests.
                    DESC
-  s.homepage     = "http://www.bitbucket.org/presenttv/PRefreshTableViewController"
+  s.homepage     = "http://www.present.tv"
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.author       = { "justinmakaila" => "justinmakaila@gmail.com" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "http://www.bitbucket.org/presenttv/PRefreshTableViewController.git", :tag => "0.0.3" }
-  s.source_files = 'PTableViewController/Classes/*.{h,m}'
-  s.resource     = "PTableViewController/Classes/*.{gif,xib}"
+  s.source_files = 'PRefreshTableViewController/Classes/*.{h,m}'
+  s.resource     = 'PRefreshTableViewController/Classes/*.{gif,xib}'
   s.dependency 'UIImage+animatedGif'
   s.requires_arc = true
 end

@@ -57,12 +57,12 @@
 		7CE6A94218F0771500A82DAD /* PTableViewControllerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTableViewControllerExample.h; sourceTree = "<group>"; };
 		7CE6A94318F0771500A82DAD /* PTableViewControllerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTableViewControllerExample.m; sourceTree = "<group>"; };
 		7CE6A94418F0771500A82DAD /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
-		7CE6A94518F0771500A82DAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		7CE6A94618F0771500A82DAD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7CE6A94718F0771500A82DAD /* PAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAppDelegate.h; path = ../PAppDelegate.h; sourceTree = "<group>"; };
-		7CE6A94818F0771500A82DAD /* PAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAppDelegate.m; path = ../PAppDelegate.m; sourceTree = "<group>"; };
-		7CE6A94918F0771500A82DAD /* PRefreshTableViewController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PRefreshTableViewController-Info.plist"; sourceTree = "<group>"; };
-		7CE6A94A18F0771500A82DAD /* PRefreshTableViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PRefreshTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		7CE6A94518F0771500A82DAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CE6A94618F0771500A82DAD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = "<group>"; };
+		7CE6A94718F0771500A82DAD /* PAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAppDelegate.h; sourceTree = "<group>"; };
+		7CE6A94818F0771500A82DAD /* PAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAppDelegate.m; sourceTree = "<group>"; };
+		7CE6A94918F0771500A82DAD /* PRefreshTableViewController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PRefreshTableViewController-Info.plist"; path = "Example/PRefreshTableViewController-Info.plist"; sourceTree = "<group>"; };
+		7CE6A94A18F0771500A82DAD /* PRefreshTableViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PRefreshTableViewController-Prefix.pch"; path = "Example/PRefreshTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 		7CE6A95C18F0777200A82DAD /* PRefreshTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRefreshTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA4F8D18F07E2A006DF56E /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				7CE6A92E18F0771500A82DAD /* Classes */,
-				7CE6A95B18F0773E00A82DAD /* Supporting Files */,
 			);
 			path = PRefreshTableViewController;
 			sourceTree = "<group>";
@@ -140,13 +139,13 @@
 		7CE6A94118F0771500A82DAD /* PRefreshTableViewControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				7CE6A92C18F0771500A82DAD /* Main.storyboard */,
 				7CE6A94518F0771500A82DAD /* Images.xcassets */,
 				7CE6A94718F0771500A82DAD /* PAppDelegate.h */,
 				7CE6A94818F0771500A82DAD /* PAppDelegate.m */,
 				7CE6A94218F0771500A82DAD /* PTableViewControllerExample.h */,
 				7CE6A94318F0771500A82DAD /* PTableViewControllerExample.m */,
 				7CE6A94418F0771500A82DAD /* TestCell.xib */,
+				7CE6A95B18F0773E00A82DAD /* Supporting Files */,
 			);
 			name = PRefreshTableViewControllerExample;
 			path = PRefreshTableViewController/Example;
@@ -155,12 +154,14 @@
 		7CE6A95B18F0773E00A82DAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CE6A92C18F0771500A82DAD /* Main.storyboard */,
 				7CE6A93F18F0771500A82DAD /* InfoPlist.strings */,
 				7CE6A94618F0771500A82DAD /* main.m */,
 				7CE6A94918F0771500A82DAD /* PRefreshTableViewController-Info.plist */,
 				7CE6A94A18F0771500A82DAD /* PRefreshTableViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +291,7 @@
 				7CE6A92D18F0771500A82DAD /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		7CE6A93F18F0771500A82DAD /* InfoPlist.strings */ = {
@@ -299,6 +300,7 @@
 				7CE6A94018F0771500A82DAD /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,0 +1,185 @@
+TPods-UIImage+animatedGif
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531FA4C3000000000000036B
+t1394582723
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FA4C4000000000000019E
+t1394582724
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531FA5250000000000000ADC
+t1394582821
+s2780
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o
+t1396404104
+s3948
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif.LinkFileList
+c00000000533B6F86000000000000019B
+t1396404102
+s411
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o
+t1396404104
+s15896
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch
+t1396404104
+s88676
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch
+t1396404104
+s89068
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a
+t1396404104
+s20248
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m
+c00000000531F396B0000000000000098
+t1394555243
+s152
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch
+c00000000531F396B000000000000004D
+t1394555243
+s77
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-environment.h
+c00000000531F396B00000000000001D1
+t1394555243
+s465
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.h
+c00000000531F396A000000000000072F
+t1394555242
+s1839
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m
+c00000000531F396A00000000000010BD
+t1394555242
+s4285
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m
+r0
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies28456f84cbebb841^fa9c6f84cbebb841^---0#1#1#--18"Check dependencies36"908F1F58-DF2D-4F78-A2E6-32F05FD57BCE-
+
+CCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096904.420509
+e418096904.561364
+r1
+xCompileC
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m322"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o Pods-UIImage+animatedGif-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler1adf6b08a7ebb841^80b88f08a7ebb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m0000000000000000^4776"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o Pods-UIImage+animatedGif-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-dummy.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif-dummy.o36"362E67B0-453D-4436-B77D-7820CA4071BB-
+bDB7A1A96-ACCF-4356-99CC-7BA7A4A558AB
+
+CCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096904.421206
+e418096904.770730
+r1
+xCompileC
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m346"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2d056c08a7ebb841^7251c508a7ebb841^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m0000000000000000^4813"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/UIImage+animatedGif/uiimage-from-animated-gif/UIImage+animatedGIF.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/UIImage+animatedGIF.o36"9445E8D6-F2BD-42D9-A4FD-71E133606C2B-
+bDB7A1A96-ACCF-4356-99CC-7BA7A4A558AB
+
+CLibtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a normal armv7s
+s418096904.771520
+e418096904.814493
+r1
+xLibtool
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a normal armv7s160"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a normal armv7s809fc508a7ebb841^cb83d008a7ebb841^---0#0#1#--1258"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a normal armv7s    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -filelist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Objects-normal/armv7s/Pods-UIImage+animatedGif.LinkFileList -framework Foundation -framework ImageIO -framework UIKit -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a36"C21822D5-98A4-45B3-8764-BE1548FB3A1F-
+bDB7A1A96-ACCF-4356-99CC-7BA7A4A558AB
+
+CProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096902.623173
+e418096904.366036
+r1
+xProcessPCH
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch
+xPods-UIImage+animatedGif-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile Pods-UIImage+animatedGif-prefix.pch335"ProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler7fa59f06a7ebb841^3cd95d08a7ebb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch0000000000000000^4595"ProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.dia -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.d -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fmbielvmhwuincbsgupdssambaqk/Pods-UIImage+animatedGif-prefix.pch.pch36"68CFF2DB-9439-435E-B8F8-CD0BCBB3D9D3-
+bDB7A1A96-ACCF-4356-99CC-7BA7A4A558AB
+
+CProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096902.623549
+e418096904.418792
+r1
+xProcessPCH
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch
+xPods-UIImage+animatedGif-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile Pods-UIImage+animatedGif-prefix.pch335"ProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler83bf9f06a7ebb841^bd3a6b08a7ebb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch0000000000000000^4606"ProcessPCH /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/Pods-UIImage+animatedGif-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/BuildHeaders/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-UIImage+animatedGif.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.dia -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.d -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-UIImage+animatedGif-prefix.pch -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-gbqkxhwmpirvuhdktbowchcmyleo/Pods-UIImage+animatedGif-prefix.pch.pch36"3460351B-8FCB-4660-B1C5-D8F08E7DB446-
+bDB7A1A96-ACCF-4356-99CC-7BA7A4A558AB
+
+CProcessPCH /Users/jmakaila/Library/Developer/Xcode/DerivedData/PTableViewController-axqtmrrhnustqqdmgonsrzowrcnq/Index/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-cvhslczuwuaqbuhfnmufwyyfutzh_ast/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/jmakaila/Library/Developer/Xcode/DerivedData/PTableViewController-axqtmrrhnustqqdmgonsrzowrcnq/Index/PrecompiledHeaders/Pods-UIImage+animatedGif-prefix-fbmcbphopkymzmczpenkanlcexup_ast/Pods-UIImage+animatedGif-prefix.pch.pch Pods-UIImage+animatedGif-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

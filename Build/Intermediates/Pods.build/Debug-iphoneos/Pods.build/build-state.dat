@@ -1,0 +1,88 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531FA4C3000000000000036B
+t1394582723
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FA4C4000000000000019E
+t1394582724
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531FA5250000000000000ADC
+t1394582821
+s2780
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+t1396404105
+s3548
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
+c00000000533B6F8800000000000000AB
+t1396404104
+s171
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods-UIImage+animatedGif.a
+c00000000533B6F880000000000004F18
+t1396404104
+s20248
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a
+t1396404105
+s23960
+
+N/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m
+c00000000531F396B0000000000000070
+t1394555243
+s112
+
+CBuild AST from /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbaf86f84cbebb841^0d1c7084cbebb841^---0#1#1#--18"Check dependencies36"E164A218-BB5A-41E2-B71D-04B83472791F-
+
+CCompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418096904.829292
+e418096905.346346
+r1
+xCompileC
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m262"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc571d408a7ebb841^1daf5809a7ebb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m0000000000000000^4184"CompileC /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jmakaila/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/include -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods/Headers -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods/Headers/UIImage+animatedGif -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods/Headers -isystem/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods/Headers/UIImage+animatedGif -MMD -MT dependencies -MF /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods/Pods-dummy.m -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"8E02536D-B134-4D7F-B4BD-3C03C177570E-
+bFF923012-57F5-40F0-88BB-D16974065D6A
+
+CLibtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a normal armv7s
+s418096905.347126
+e418096905.370950
+r1
+xLibtool
+x/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a normal armv7s140"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a normal armv7sd6005909a7ebb841^16fc5e09a7ebb841^---0#0#1#--1169"Libtool /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos -filelist /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-UIImage+animatedGif -o /Users/jmakaila/Documents/Development/Present/iOS/Modules/PTableViewController/Build/Products/Debug-iphoneos/libPods.a36"0975E20D-9085-4C56-88E8-19C7CB01325F-
+bFF923012-57F5-40F0-88BB-D16974065D6A
+
