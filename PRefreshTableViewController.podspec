@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                     for making refresh and load more requests.
                    DESC
   s.homepage     = "http://www.present.tv"
-  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "justinmakaila" => "justinmakaila@gmail.com" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "http://www.bitbucket.org/presenttv/PRefreshTableViewController.git", :tag => "0.0.3" }
