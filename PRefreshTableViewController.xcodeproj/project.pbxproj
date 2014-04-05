@@ -17,7 +17,7 @@
 		5FE450EA18CE2DFC00E85284 /* PAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE450E918CE2DFC00E85284 /* PAppDelegate.m */; };
 		5FE450ED18CE2DFC00E85284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE450EB18CE2DFC00E85284 /* Main.storyboard */; };
 		5FE450F518CE2DFC00E85284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE450F418CE2DFC00E85284 /* Images.xcassets */; };
-		5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511618CE2FF600E85284 /* PTableViewController.m */; };
+		5FE4511718CE2FF600E85284 /* PRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511618CE2FF600E85284 /* PRefreshTableViewController.m */; };
 		5FE4511A18CE31F500E85284 /* PRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4511918CE31F500E85284 /* PRefreshControl.m */; };
 		5FE4511C18CE5A8000E85284 /* loader-white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4511B18CE5A8000E85284 /* loader-white.gif */; };
 		5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4512218CE7A6900E85284 /* PDataSource.m */; };
@@ -33,22 +33,22 @@
 		5F3187BE18EB519F00D1C968 /* PRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshFooterView.h; path = Classes/PRefreshFooterView.h; sourceTree = "<group>"; };
 		5F3187BF18EB519F00D1C968 /* PRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshFooterView.m; path = Classes/PRefreshFooterView.m; sourceTree = "<group>"; };
 		5F3187C018EB519F00D1C968 /* PRefreshFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PRefreshFooterView.xib; path = Classes/PRefreshFooterView.xib; sourceTree = "<group>"; };
-		5FE450D618CE2DFC00E85284 /* PTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE450D618CE2DFC00E85284 /* PRefreshTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRefreshTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE450D918CE2DFC00E85284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FE450DB18CE2DFC00E85284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5FE450DD18CE2DFC00E85284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5FE450E118CE2DFC00E85284 /* PTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTableViewController-Info.plist"; sourceTree = "<group>"; };
+		5FE450E118CE2DFC00E85284 /* PRefreshTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRefreshTableViewController-Info.plist"; sourceTree = "<group>"; };
 		5FE450E318CE2DFC00E85284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FE450E518CE2DFC00E85284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5FE450E718CE2DFC00E85284 /* PTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		5FE450E718CE2DFC00E85284 /* PRefreshTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRefreshTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 		5FE450E818CE2DFC00E85284 /* PAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAppDelegate.h; sourceTree = "<group>"; };
 		5FE450E918CE2DFC00E85284 /* PAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAppDelegate.m; sourceTree = "<group>"; };
 		5FE450EC18CE2DFC00E85284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FE450F418CE2DFC00E85284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5FE450FB18CE2DFD00E85284 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FE4511318CE2F9E00E85284 /* PRefreshControlProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshControlProtocol.h; path = Classes/PRefreshControlProtocol.h; sourceTree = "<group>"; };
-		5FE4511518CE2FF600E85284 /* PTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTableViewController.h; path = Classes/PTableViewController.h; sourceTree = "<group>"; };
-		5FE4511618CE2FF600E85284 /* PTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTableViewController.m; path = Classes/PTableViewController.m; sourceTree = "<group>"; };
+		5FE4511518CE2FF600E85284 /* PRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshTableViewController.h; path = Classes/PRefreshTableViewController.h; sourceTree = "<group>"; };
+		5FE4511618CE2FF600E85284 /* PRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshTableViewController.m; path = Classes/PRefreshTableViewController.m; sourceTree = "<group>"; };
 		5FE4511818CE31F500E85284 /* PRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRefreshControl.h; path = Classes/PRefreshControl.h; sourceTree = "<group>"; };
 		5FE4511918CE31F500E85284 /* PRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRefreshControl.m; path = Classes/PRefreshControl.m; sourceTree = "<group>"; };
 		5FE4511B18CE5A8000E85284 /* loader-white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "loader-white.gif"; path = "Classes/loader-white.gif"; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		5FE450CD18CE2DFC00E85284 = {
 			isa = PBXGroup;
 			children = (
-				5FE450DF18CE2DFC00E85284 /* PTableViewController */,
-				5FE4511118CE2F0D00E85284 /* PTableViewController Example */,
+				5FE450DF18CE2DFC00E85284 /* PRefreshTableViewController */,
+				5FE4511118CE2F0D00E85284 /* PRefreshTableViewController Example */,
 				5FE450D818CE2DFC00E85284 /* Frameworks */,
 				5FE450D718CE2DFC00E85284 /* Products */,
 				A5F6EA1CB2E64FDE8B7382FA /* Pods.xcconfig */,
@@ -104,7 +104,7 @@
 		5FE450D718CE2DFC00E85284 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FE450D618CE2DFC00E85284 /* PTableViewController.app */,
+				5FE450D618CE2DFC00E85284 /* PRefreshTableViewController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,30 +121,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5FE450DF18CE2DFC00E85284 /* PTableViewController */ = {
+		5FE450DF18CE2DFC00E85284 /* PRefreshTableViewController */ = {
 			isa = PBXGroup;
 			children = (
 				5F3187C318EB51A600D1C968 /* PRefreshCell */,
 				5FE4511218CE2F4E00E85284 /* PRefreshControl */,
 				5FE4512818CE7A7100E85284 /* PDataSource */,
-				5FE4511518CE2FF600E85284 /* PTableViewController.h */,
-				5FE4511618CE2FF600E85284 /* PTableViewController.m */,
+				5FE4511518CE2FF600E85284 /* PRefreshTableViewController.h */,
+				5FE4511618CE2FF600E85284 /* PRefreshTableViewController.m */,
 			);
+			name = PRefreshTableViewController;
 			path = PTableViewController;
 			sourceTree = "<group>";
 		};
 		5FE450E018CE2DFC00E85284 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5FE450E118CE2DFC00E85284 /* PTableViewController-Info.plist */,
+				5FE450E118CE2DFC00E85284 /* PRefreshTableViewController-Info.plist */,
 				5FE450E218CE2DFC00E85284 /* InfoPlist.strings */,
 				5FE450E518CE2DFC00E85284 /* main.m */,
-				5FE450E718CE2DFC00E85284 /* PTableViewController-Prefix.pch */,
+				5FE450E718CE2DFC00E85284 /* PRefreshTableViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FE4511118CE2F0D00E85284 /* PTableViewController Example */ = {
+		5FE4511118CE2F0D00E85284 /* PRefreshTableViewController Example */ = {
 			isa = PBXGroup;
 			children = (
 				5FE450E818CE2DFC00E85284 /* PAppDelegate.h */,
@@ -156,7 +157,7 @@
 				5FE4513118CE914E00E85284 /* TestCell.xib */,
 				5FE450E018CE2DFC00E85284 /* Supporting Files */,
 			);
-			name = "PTableViewController Example";
+			name = "PRefreshTableViewController Example";
 			path = PTableViewController;
 			sourceTree = "<group>";
 		};
@@ -204,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FE450D518CE2DFC00E85284 /* PTableViewController */ = {
+		5FE450D518CE2DFC00E85284 /* PRefreshTableViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE4510B18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PTableViewController" */;
+			buildConfigurationList = 5FE4510B18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PRefreshTableViewController" */;
 			buildPhases = (
 				B6966CED09A348E1AED75313 /* Check Pods Manifest.lock */,
 				5FE450D218CE2DFC00E85284 /* Sources */,
@@ -218,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = PTableViewController;
+			name = PRefreshTableViewController;
 			productName = PTableViewController;
-			productReference = 5FE450D618CE2DFC00E85284 /* PTableViewController.app */;
+			productReference = 5FE450D618CE2DFC00E85284 /* PRefreshTableViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +234,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Present, Inc";
 			};
-			buildConfigurationList = 5FE450D118CE2DFC00E85284 /* Build configuration list for PBXProject "PTableViewController" */;
+			buildConfigurationList = 5FE450D118CE2DFC00E85284 /* Build configuration list for PBXProject "PRefreshTableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,7 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FE450D518CE2DFC00E85284 /* PTableViewController */,
+				5FE450D518CE2DFC00E85284 /* PRefreshTableViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +314,7 @@
 				5FE4512618CE7A6900E85284 /* PDataSource.m in Sources */,
 				5FE450E618CE2DFC00E85284 /* main.m in Sources */,
 				5FE450EA18CE2DFC00E85284 /* PAppDelegate.m in Sources */,
-				5FE4511718CE2FF600E85284 /* PTableViewController.m in Sources */,
+				5FE4511718CE2FF600E85284 /* PRefreshTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +419,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTableViewController/PTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "PTableViewController/PTableViewController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PTableViewController/PRefreshTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "PTableViewController/PRefreshTableViewController-Info.plist";
+				PRODUCT_NAME = PRefreshTableViewController;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -432,9 +433,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTableViewController/PTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "PTableViewController/PTableViewController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PTableViewController/PRefreshTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "PTableViewController/PRefreshTableViewController-Info.plist";
+				PRODUCT_NAME = PRefreshTableViewController;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FE450D118CE2DFC00E85284 /* Build configuration list for PBXProject "PTableViewController" */ = {
+		5FE450D118CE2DFC00E85284 /* Build configuration list for PBXProject "PRefreshTableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE4510918CE2DFD00E85284 /* Debug */,
@@ -451,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FE4510B18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PTableViewController" */ = {
+		5FE4510B18CE2DFD00E85284 /* Build configuration list for PBXNativeTarget "PRefreshTableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE4510C18CE2DFD00E85284 /* Debug */,

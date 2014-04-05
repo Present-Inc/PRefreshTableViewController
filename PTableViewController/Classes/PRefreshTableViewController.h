@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
     PTableViewControllerStateEmpty
 };
 
-@class PTableViewController;
+@class PRefreshTableViewController;
 
 @protocol PTableViewControllerProtocol <NSObject>
 @required
@@ -80,12 +80,12 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
 
 @optional
 - (void)observeModel;
-- (void)tableViewController:(PTableViewController*)tableViewController willTransitionToState:(PTableViewControllerState)state;
+- (void)tableViewController:(PRefreshTableViewController*)tableViewController willTransitionToState:(PTableViewControllerState)state;
 - (void)resetCursor;
 
 @end
 
-@interface PTableViewController : UIViewController <PTableViewControllerProtocol, PDataSourceDelegate> {
+@interface PRefreshTableViewController : UIViewController <PTableViewControllerProtocol, PDataSourceDelegate> {
     UITableViewCellSeparatorStyle separatorStyle;
 }
 

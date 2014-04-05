@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Present, Inc. All rights reserved.
 //
 
-#import "PTableViewController.h"
+#import "PRefreshTableViewController.h"
 
-@interface PTableViewController () <PRefreshControlDelegate>
+@interface PRefreshTableViewController () <PRefreshControlDelegate>
 
 @property (nonatomic, getter = isRefreshing) BOOL refreshing;
 @property (nonatomic, getter = isInitialized) BOOL initialized;
@@ -21,7 +21,7 @@
 
 @end
 
-@implementation PTableViewController
+@implementation PRefreshTableViewController
 
 #pragma mark - Lifecycle
 #pragma mark Dealloc

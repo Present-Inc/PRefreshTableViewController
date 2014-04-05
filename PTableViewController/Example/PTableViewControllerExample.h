@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Present, Inc. All rights reserved.
 //
 
-#import "PTableViewController.h"
+#import "PRefreshTableViewController.h"
 
-@interface PTableViewControllerExample : PTableViewController
+@interface PTableViewControllerExample : PRefreshTableViewController
 
 @end
