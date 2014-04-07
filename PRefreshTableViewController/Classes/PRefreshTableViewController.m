@@ -239,7 +239,7 @@
 }
 
 - (void)resetCursor {
-    self.cursor = @"";
+    self.cursor = 0;
 }
 
 - (void)refreshBlock {
@@ -270,7 +270,7 @@
         return;
     }
     
-    if (![self.cursor isEqualToString:@""] && !self.tableView.tableFooterView) {
+    if (self.cursor == -1 && !self.tableView.tableFooterView) {
         [self showFooterView];
     }
     

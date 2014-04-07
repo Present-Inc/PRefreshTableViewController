@@ -29,7 +29,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     separatorStyle = UITableViewCellSeparatorStyleSingleLine;
-    self.cursor = @"";
+    self.cursor = 0;
     [super viewDidAppear:animated];
 }
 
@@ -76,7 +76,7 @@
 }
 
 - (void)resetCursor {
-    self.cursor = @"";
+    self.cursor = 0;
     loadMoreCount = 0;
 }
 
@@ -91,7 +91,7 @@
         [indexPaths addObject:indexPath];
     }
     
-    if ([self.cursor isEqualToString:@""]) {
+    if (self.cursor == 0) {
         [self.tableView reloadData];
     }else {
         [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationNone];
@@ -107,7 +107,7 @@
         // !!!: This should be a response from the API
         NSArray *results = @[@1, @2, @3, @4, @5, @6];
         
-        if ([self.cursor isEqualToString:@""]) {
+        if (self.cursor == 0) {
             [self.items removeAllObjects];
         }
         
@@ -116,9 +116,9 @@
         [self endRefreshingWithResults:results];
 
         if (loadMoreCount == 3) {
-            self.cursor = nil;
+            self.cursor = -1;
         }else {
-            self.cursor = @"someStringRepresentingACursor";
+            self.cursor = loadMoreCount;
         }
     });
 }
