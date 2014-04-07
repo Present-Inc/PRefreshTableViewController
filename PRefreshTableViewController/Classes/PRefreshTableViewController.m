@@ -250,6 +250,10 @@
     NSAssert(NO, @"-endRefreshingWithResults: is intended to be implemented by subclasses");
 }
 
+- (void)endRefreshingWithError:(NSError *)error {
+    NSAssert(NO, @"-endRefreshingWithError: is intended to be implemented by subclasses");
+}
+
 #pragma mark Flow
                            
 - (void)refreshTriggered {
