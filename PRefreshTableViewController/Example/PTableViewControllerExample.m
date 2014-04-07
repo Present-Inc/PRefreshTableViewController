@@ -42,9 +42,6 @@
     self.tableViewDataSource.configurationBlock = ^(UITableViewCell *cell, NSNumber *number, NSIndexPath *indexPath) {
         if (indexPath.row < strongSelf.items.count) {
             cell.textLabel.text = [NSString stringWithFormat:@"Hey, %li!", (long)number.integerValue];
-        }else {
-            NSLog(@"Show reload cell!");
-            cell.textLabel.text = @"This is the load more cell!";
         }
     };
     

@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PRefreshTableViewController/Example/PRefreshTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/PRefreshTableViewController/PRefreshTableViewController-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PRefreshTableViewController/Example/PRefreshTableViewController-Info.plist";
 				PRODUCT_NAME = PRefreshTableViewController;
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,7 +400,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PRefreshTableViewController/Example/PRefreshTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/PRefreshTableViewController/PRefreshTableViewController-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PRefreshTableViewController/Example/PRefreshTableViewController-Info.plist";
 				PRODUCT_NAME = PRefreshTableViewController;
 				WRAPPER_EXTENSION = app;
 			};
