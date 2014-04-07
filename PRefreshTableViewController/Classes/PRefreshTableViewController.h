@@ -55,7 +55,7 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
 
 @property (strong, nonatomic) PRefreshControl *refreshControl;
 
-@property (strong, nonatomic) NSString *cursor;
+@property (nonatomic) NSInteger cursor;
 @property (strong, nonatomic) NSMutableArray *items;
 
 - (void)setupTableView;
