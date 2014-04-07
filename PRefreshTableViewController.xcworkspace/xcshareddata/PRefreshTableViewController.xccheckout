@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F386F16B-19F6-40E2-83B3-3F6098CFD2DC</string>
+	<string>EFF6EFE3-BE17-449A-B158-0AA343FDEF88</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PRefreshTableViewController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FE3209F3-5FE5-48B0-A792-AB213DAB9BA4</key>
-		<string>https://bitbucket.org/presenttv/ptableviewcontroller.git</string>
+		<key>9B10B88D-BA7E-4E39-B06B-9CF47A0465D7</key>
+		<string>https://bitbucket.org/presenttv/prefreshtableviewcontroller.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PRefreshTableViewController.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FE3209F3-5FE5-48B0-A792-AB213DAB9BA4</key>
+		<key>9B10B88D-BA7E-4E39-B06B-9CF47A0465D7</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/presenttv/ptableviewcontroller.git</string>
+	<string>https://bitbucket.org/presenttv/prefreshtableviewcontroller.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FE3209F3-5FE5-48B0-A792-AB213DAB9BA4</string>
+	<string>9B10B88D-BA7E-4E39-B06B-9CF47A0465D7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FE3209F3-5FE5-48B0-A792-AB213DAB9BA4</string>
+			<string>9B10B88D-BA7E-4E39-B06B-9CF47A0465D7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PTableViewController</string>
 		</dict>
