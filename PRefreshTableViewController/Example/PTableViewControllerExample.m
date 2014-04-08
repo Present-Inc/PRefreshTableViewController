@@ -21,6 +21,8 @@
 @implementation PTableViewControllerExample
 
 - (void)viewDidLoad {
+    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
+    
     self.title = @"PTableViewController Example";
     loadMoreCount = 0;
     
@@ -38,11 +40,8 @@
                                                    cellIdentifier:@"Cell"
                                                           xibName:@"TestCell"];
     
-    __block typeof(self) strongSelf = self;
     self.tableViewDataSource.configurationBlock = ^(UITableViewCell *cell, NSNumber *number, NSIndexPath *indexPath) {
-        if (indexPath.row < strongSelf.items.count) {
-            cell.textLabel.text = [NSString stringWithFormat:@"Hey, %li!", (long)number.integerValue];
-        }
+        cell.textLabel.text = [NSString stringWithFormat:@"Hey, %li!", (long)number.integerValue];
     };
     
     self.tableViewDataSource.heightConfigurationBlock = ^CGFloat (NSIndexPath *indexPath) {
@@ -65,7 +64,7 @@
  *  @return YES if all three are true, else NO
  */
 - (BOOL)canBeginRefresh {
-    return (!self.isRefreshing && self.isNetworkReachable && self.cursor);
+    return (!self.isRefreshing && self.isNetworkReachable && self.cursor != -1);
 }
 
 - (BOOL)isTableViewEmpty {
@@ -100,24 +99,7 @@
 - (void)refreshBlock {
     double delayInSeconds = 2.0;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void) {
-        // !!!: This should be a response from the API
-        NSArray *results = @[@1, @2, @3, @4, @5, @6];
-        
-        if (self.cursor == 0) {
-            [self.items removeAllObjects];
-        }
-        
-        [self.items addObjectsFromArray:results];
-        
-        [self endRefreshingWithResults:results];
-
-        if (loadMoreCount == 3) {
-            self.cursor = -1;
-        }else {
-            self.cursor = loadMoreCount;
-        }
-    });
+    dispatch_after(popTime, dispatch_get_main_queue(), self.refreshCompletionBlock);
 }
 
 #pragma mark - PExampleDataSource Delegate
@@ -128,6 +110,27 @@
     }
     
     [self loadMore];
+}
+
+- (void(^)())refreshCompletionBlock {
+    return ^(void) {
+        // !!!: This should be a response from the API
+        NSArray *results = @[@1, @2, @3, @4, @5, @6];
+        
+        if (self.cursor == 0) {
+            [self.items removeAllObjects];
+        }
+        
+        [self.items addObjectsFromArray:results];
+        
+        [self endRefreshingWithResults:results];
+        
+        if (loadMoreCount == 3) {
+            self.cursor = -1;
+        }else {
+            self.cursor = loadMoreCount;
+        }
+    };
 }
 
 @end

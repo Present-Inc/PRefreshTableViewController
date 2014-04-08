@@ -53,6 +53,8 @@
 #pragma mark View lifecycle
 
 - (void)viewDidLoad {
+    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
+    
     _tableView.backgroundColor = [UIColor clearColor];
     [self setupTableView];
     
@@ -78,6 +80,8 @@
 }
 
 - (void)viewDidLayoutSubviews {
+    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
+    
     self.refreshControl = [PRefreshControl attachToTableView:self.tableView
                                                     position:PRefreshControlPositionHeader
                                                       target:self
@@ -270,7 +274,7 @@
         return;
     }
     
-    if (self.cursor == -1 && !self.tableView.tableFooterView) {
+    if (self.cursor >= 0 && !self.tableView.tableFooterView) {
         [self showFooterView];
     }
     
