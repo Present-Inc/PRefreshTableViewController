@@ -26,6 +26,8 @@
     self.title = @"PTableViewController Example";
     loadMoreCount = 0;
     
+    [self setInitialized:NO];
+    
     [super viewDidLoad];
 }
 

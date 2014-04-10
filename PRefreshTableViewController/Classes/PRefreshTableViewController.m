@@ -56,7 +56,6 @@
     NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
     
     _tableView.backgroundColor = [UIColor clearColor];
-    [self setupTableView];
     
     if ([_delegate respondsToSelector:@selector(observeModel)]) {
         [_delegate observeModel];
@@ -66,6 +65,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [self setupTableView];
     [self setupData];
     
     [super viewWillAppear:animated];
@@ -274,7 +274,7 @@
         return;
     }
     
-    if (self.cursor >= 0 && !self.tableView.tableFooterView) {
+    if (self.cursor >= 0 && !self.tableView.tableFooterView && self.isInitialized) {
         [self showFooterView];
     }
     
@@ -289,6 +289,10 @@
     
     if (self.tableView.tableFooterView) {
         [self hideFooterView];
+    }
+    
+    if (!self.isInitialized) {
+        self.initialized = YES;
     }
     
     self.refreshing = NO;
