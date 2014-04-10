@@ -59,14 +59,8 @@
     return YES;
 }
 
-/**
- *  Checks that the controller is not already refreshing,
- *  the network is reachable, and that the cursor is not nil
- *
- *  @return YES if all three are true, else NO
- */
 - (BOOL)canBeginRefresh {
-    return (!self.isRefreshing && self.isNetworkReachable && self.cursor != -1);
+    return (!self.isRefreshing && self.isNetworkReachable && self.cursor >= 0);
 }
 
 - (BOOL)isTableViewEmpty {
@@ -107,10 +101,6 @@
 #pragma mark - PExampleDataSource Delegate
 
 - (void)triggerLoadMore {
-    if (loadMoreCount < 3) {
-        loadMoreCount++;
-    }
-    
     [self loadMore];
 }
 
@@ -127,6 +117,7 @@
         
         [self endRefreshingWithResults:results];
         
+        loadMoreCount++;
         if (loadMoreCount == 3) {
             self.cursor = -1;
         }else {

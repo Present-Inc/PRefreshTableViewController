@@ -60,6 +60,4 @@ typedef void (^SelectedIndexPathBlock) (NSIndexPath *indexPath);
 - (id)itemAtIndexPath:(NSIndexPath*)indexPath;
 - (id)itemAtIndex:(NSUInteger)index;
 
-- (PRefreshFooterView*)refreshCellForTableView:(UITableView*)tableView withTag:(NSUInteger)tag;
-
 @end

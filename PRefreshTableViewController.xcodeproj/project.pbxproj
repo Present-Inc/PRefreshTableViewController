@@ -105,6 +105,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7CC597DB18F7455000246FD3 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6A93018F0771500A82DAD /* PDataSource+TableHeaderView.h */,
+				7CE6A93118F0771500A82DAD /* PDataSource+TableHeaderView.m */,
+				7CE6A93418F0771500A82DAD /* PDataSourceDelegate.h */,
+				7CE6A93218F0771500A82DAD /* PDataSource.h */,
+				7CE6A93318F0771500A82DAD /* PDataSource.m */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		7CC597DC18F7455D00246FD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CC597DD18F7456800246FD3 /* Refresh Control */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7CC597DD18F7456800246FD3 /* Refresh Control */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6A93918F0771500A82DAD /* PRefreshControlProtocol.h */,
+				7CC597DE18F7515E00246FD3 /* Initialize View */,
+				7CC597DF18F7516600246FD3 /* Refresh Control */,
+				7CC597E018F7516E00246FD3 /* Footer View */,
+			);
+			name = "Refresh Control";
+			sourceTree = "<group>";
+		};
+		7CC597DE18F7515E00246FD3 /* Initialize View */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6A93518F0771500A82DAD /* PInitializeView.h */,
+				7CE6A93618F0771500A82DAD /* PInitializeView.m */,
+			);
+			name = "Initialize View";
+			sourceTree = "<group>";
+		};
+		7CC597DF18F7516600246FD3 /* Refresh Control */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6A93718F0771500A82DAD /* PRefreshControl.h */,
+				7CE6A93818F0771500A82DAD /* PRefreshControl.m */,
+			);
+			name = "Refresh Control";
+			sourceTree = "<group>";
+		};
+		7CC597E018F7516E00246FD3 /* Footer View */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6A93A18F0771500A82DAD /* PRefreshFooterView.h */,
+				7CE6A93B18F0771500A82DAD /* PRefreshFooterView.m */,
+				7CE6A93C18F0771500A82DAD /* PRefreshFooterView.xib */,
+			);
+			name = "Footer View";
+			sourceTree = "<group>";
+		};
 		7CE6A92B18F0771500A82DAD /* PRefreshTableViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,19 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				7CE6A92F18F0771500A82DAD /* loader-white.gif */,
-				7CE6A93018F0771500A82DAD /* PDataSource+TableHeaderView.h */,
-				7CE6A93118F0771500A82DAD /* PDataSource+TableHeaderView.m */,
-				7CE6A93218F0771500A82DAD /* PDataSource.h */,
-				7CE6A93318F0771500A82DAD /* PDataSource.m */,
-				7CE6A93418F0771500A82DAD /* PDataSourceDelegate.h */,
-				7CE6A93518F0771500A82DAD /* PInitializeView.h */,
-				7CE6A93618F0771500A82DAD /* PInitializeView.m */,
-				7CE6A93718F0771500A82DAD /* PRefreshControl.h */,
-				7CE6A93818F0771500A82DAD /* PRefreshControl.m */,
-				7CE6A93918F0771500A82DAD /* PRefreshControlProtocol.h */,
-				7CE6A93A18F0771500A82DAD /* PRefreshFooterView.h */,
-				7CE6A93B18F0771500A82DAD /* PRefreshFooterView.m */,
-				7CE6A93C18F0771500A82DAD /* PRefreshFooterView.xib */,
+				7CC597DB18F7455000246FD3 /* Data Source */,
+				7CC597DC18F7455D00246FD3 /* Views */,
 				7CE6A93D18F0771500A82DAD /* PRefreshTableViewController.h */,
 				7CE6A93E18F0771500A82DAD /* PRefreshTableViewController.m */,
 			);

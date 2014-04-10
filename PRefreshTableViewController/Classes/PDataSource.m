@@ -86,7 +86,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == (self.items.count - _delegate.loadMoreIndex)) {
+    if (indexPath.row == (self.items.count - [_delegate loadMoreIndex])) {
         [self.delegate triggerLoadMore];
     }
 }

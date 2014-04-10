@@ -197,7 +197,9 @@
 }
 
 - (void)showFooterView {
-    self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+    if (!self.tableView.tableFooterView) {
+        self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+    }
 }
 
 - (void)hideFooterView {
@@ -274,7 +276,8 @@
         return;
     }
     
-    if (self.cursor >= 0 && !self.tableView.tableFooterView && self.isInitialized) {
+    if (self.cursor > 0) {
+        self.tableViewState = PTableViewControllerStateLoadingFooter;
         [self showFooterView];
     }
     
