@@ -21,8 +21,6 @@
 @implementation PTableViewControllerExample
 
 - (void)viewDidLoad {
-    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
-    
     self.title = @"PTableViewController Example";
     loadMoreCount = 0;
     

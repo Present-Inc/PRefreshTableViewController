@@ -53,8 +53,6 @@
 #pragma mark View lifecycle
 
 - (void)viewDidLoad {
-    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
-    
     _tableView.backgroundColor = [UIColor clearColor];
     
     if ([_delegate respondsToSelector:@selector(observeModel)]) {
@@ -80,8 +78,6 @@
 }
 
 - (void)viewDidLayoutSubviews {
-    NSLog((@"%s [Line %d]"), __PRETTY_FUNCTION__, __LINE__);
-    
     self.refreshControl = [PRefreshControl attachToTableView:self.tableView
                                                     position:PRefreshControlPositionHeader
                                                       target:self
