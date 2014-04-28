@@ -53,8 +53,6 @@
 #pragma mark View lifecycle
 
 - (void)viewDidLoad {
-    _tableView.backgroundColor = [UIColor clearColor];
-    
     if ([_delegate respondsToSelector:@selector(observeModel)]) {
         [_delegate observeModel];
     }
@@ -193,9 +191,11 @@
 }
 
 - (void)showFooterView {
-    if (!self.tableView.tableFooterView) {
-        self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+    if (self.tableView.tableFooterView) {
+        self.tableView.tableFooterView = nil;
     }
+    
+    self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
 }
 
 - (void)hideFooterView {
