@@ -61,6 +61,11 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    if (!self.initializeView) {
+        self.initializeView = [[PInitializeView alloc] initWithFrame:self.tableView.frame];
+        [self.view insertSubview:self.initializeView aboveSubview:self.tableView];
+    }
+    
     [self setupTableView];
     [self setupData];
     
@@ -81,11 +86,6 @@
                                                       target:self
                                                       action:@selector(refreshTriggered)];
     self.refreshControl.delegate = self;
-    
-    if (!self.initializeView && !self.isInitialized) {
-        self.initializeView = [[PInitializeView alloc] initWithFrame:self.tableView.frame];
-        [self.view insertSubview:self.initializeView belowSubview:self.tableView];
-    }
     
     [self.view layoutSubviews];
     [super viewDidLayoutSubviews];
@@ -130,8 +130,9 @@
     [self.tableView reloadData];
 }
 
-- (void)setInitialized:(BOOL)initialized {
-    _initialized = initialized;
+- (void)setInitializing {
+    _initialized = NO;
+    self.tableViewState = PTableViewControllerStateInitializing;
 }
 
 - (void)setTableViewState:(PTableViewControllerState)tableViewState {

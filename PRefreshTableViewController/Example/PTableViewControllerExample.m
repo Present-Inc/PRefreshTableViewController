@@ -21,12 +21,12 @@
 @implementation PTableViewControllerExample
 
 - (void)viewDidLoad {
+    [super viewDidLoad];
+    
     self.title = @"PTableViewController Example";
     loadMoreCount = 0;
     
-    [self setInitialized:NO];
-    
-    [super viewDidLoad];
+    [self setInitializing];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
