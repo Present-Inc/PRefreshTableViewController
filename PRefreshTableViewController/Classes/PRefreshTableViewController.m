@@ -62,7 +62,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     if (!self.initializeView) {
-        self.initializeView = [[PInitializeView alloc] initWithFrame:self.tableView.frame];
+        self.initializeView = [[PInitializeView alloc] initWithFrame:self.view.bounds];
         [self.view insertSubview:self.initializeView aboveSubview:self.tableView];
     }
     
