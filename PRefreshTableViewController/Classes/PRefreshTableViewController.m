@@ -64,7 +64,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     if (!self.initializeView && !self.isInitialized) {
-        self.initializeView = [[PInitializeView alloc] initWithFrame:self.view.frame];
+        self.initializeView = [[PInitializeView alloc] initWithFrame:self.tableView.bounds];
         [self.view insertSubview:self.initializeView aboveSubview:self.tableView];
     }
     
@@ -88,6 +88,8 @@
                                                       target:self
                                                       action:@selector(refreshTriggered)];
     self.refreshControl.delegate = self;
+    
+    self.initializeView.center = self.tableView.center;
     
     [self.view layoutSubviews];
     [super viewDidLayoutSubviews];
