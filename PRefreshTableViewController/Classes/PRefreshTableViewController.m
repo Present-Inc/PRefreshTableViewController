@@ -43,11 +43,13 @@
 
 - (void)awakeFromNib {
     [self baseInit];
+    [super awakeFromNib];
 }
 
 - (void)baseInit {
     _delegate = self;
     _items = [NSMutableArray array];
+    _initialized = YES;
 }
 
 #pragma mark View lifecycle
@@ -61,7 +63,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    if (!self.initializeView) {
+    if (!self.initializeView && !self.isInitialized) {
         self.initializeView = [[PInitializeView alloc] initWithFrame:self.view.bounds];
         [self.view insertSubview:self.initializeView aboveSubview:self.tableView];
     }
