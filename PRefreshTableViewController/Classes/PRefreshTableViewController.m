@@ -116,7 +116,7 @@
 }
 
 - (void)setupData {
-    if (self.cursor == 0) {
+    if (self.cursor == 0 || self.items.count == 0) {
         if (!self.isInitialized) {
             self.tableViewState = PTableViewControllerStateInitializing;
         }
