@@ -10,6 +10,8 @@
 
 @interface PRefreshTableViewController () <PRefreshControlDelegate>
 
+@property (strong, nonatomic) PRefreshFooterView *footerView;
+
 @property (nonatomic, getter = isRefreshing) BOOL refreshing;
 @property (nonatomic, getter = isInitialized) BOOL initialized;
 
@@ -200,7 +202,12 @@
         self.tableView.tableFooterView = nil;
     }
     
-    self.tableView.tableFooterView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+    if (!self.footerView) {
+        self.footerView = [[[UINib nibWithNibName:@"PRefreshFooterView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+        self.footerView.frame = CGRectMake(0, 0, 320, 71);
+    }
+    
+    self.tableView.tableFooterView = self.footerView;
 }
 
 - (void)hideFooterView {
