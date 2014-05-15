@@ -29,7 +29,7 @@
 #pragma mark Dealloc
 
 - (void)dealloc {
-    self.delegate = nil;
+    self.refreshDelegate = nil;
 }
 
 #pragma mark Init
@@ -49,7 +49,7 @@
 }
 
 - (void)baseInit {
-    _delegate = self;
+    _refreshDelegate = self;
     _items = [NSMutableArray array];
     _initialized = YES;
 }
@@ -57,8 +57,8 @@
 #pragma mark View lifecycle
 
 - (void)viewDidLoad {
-    if ([_delegate respondsToSelector:@selector(observeModel)]) {
-        [_delegate observeModel];
+    if ([_refreshDelegate respondsToSelector:@selector(observeModel)]) {
+        [_refreshDelegate observeModel];
     }
     
     [super viewDidLoad];
@@ -142,8 +142,8 @@
 }
 
 - (void)setTableViewState:(PTableViewControllerState)tableViewState {
-    if ([_delegate respondsToSelector:@selector(tableViewController:willTransitionToState:)]) {
-        [_delegate tableViewController:self willTransitionToState:tableViewState];
+    if ([_refreshDelegate respondsToSelector:@selector(tableViewController:willTransitionToState:)]) {
+        [_refreshDelegate tableViewController:self willTransitionToState:tableViewState];
     }
     
     _tableViewState = tableViewState;
@@ -290,7 +290,7 @@
     }
     
     self.refreshing = YES;
-    [_delegate refreshBlock];
+    [_refreshDelegate refreshBlock];
 }
 
 - (void)endRefreshing {

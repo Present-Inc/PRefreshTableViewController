@@ -44,7 +44,7 @@ typedef NS_ENUM(NSInteger, PTableViewControllerState) {
     UITableViewCellSeparatorStyle separatorStyle;
 }
 
-@property (weak, nonatomic) id<PRefreshTableViewControllerProtocol> delegate;
+@property (weak, nonatomic) id<PRefreshTableViewControllerProtocol> refreshDelegate;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic) PTableViewControllerState tableViewState;
