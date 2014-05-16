@@ -38,6 +38,7 @@
 
 - (void)awakeFromNib {
     [self baseInit];
+    [super awakeFromNib];
 }
 
 - (void)baseInit {
