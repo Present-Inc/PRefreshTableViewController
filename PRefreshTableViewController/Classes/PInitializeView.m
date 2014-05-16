@@ -50,7 +50,10 @@
 }
 
 - (void)layoutSubviews {
-    self.refreshIndicator.center = self.center;
+    CGFloat centerX = CGRectGetMidX(self.bounds);
+    CGFloat centerY = CGRectGetMidY(self.bounds);
+    
+    self.refreshIndicator.center = CGPointMake(centerX, centerY);
     [super layoutSubviews];
 }
 
