@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
 
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (nonatomic) SEL refreshAction;
-@property (strong, nonatomic) id refreshTarget;
+@property (weak, nonatomic) id refreshTarget;
 
 + (instancetype)findExistingRefreshControlInView:(UIView*)view forPosition:(PRefreshControlPosition)position;
 
