@@ -204,7 +204,7 @@ typedef NS_ENUM(NSInteger, PRefreshControlState) {
 - (void)scrollViewDidEndDragging {
     if (state == PRefreshControlStateHidden) {
         if ([self offsetShouldTriggerRefresh]) {
-            if (_position == PRefreshControlPositionFooter && ![_delegate shouldBeginRefresh]) {
+            if (![_delegate shouldBeginRefresh]) {
                 return;
             }
             
